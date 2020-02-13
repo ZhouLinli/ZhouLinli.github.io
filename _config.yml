@@ -85,7 +85,7 @@ author:
   bio              : "Ph.D Candidate, Graduate School of Education and Information Studies, University of California, Los Angeles (UCLA)"
   location         : 
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://ucla.academia.edu/LinliZhou"
   email            : "llz1722@ucla.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
