@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Linli Zhou / Site Title"
+title                    : "Linli Zhou / HomePage"
 title_separator          : "-"
 name                     : &name "Linli Zhou"
 description              : &description "personal description"
-url                      : https://ZhouLinli.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://ZhouLinli.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ZhouLinli/ZhouLinli.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
