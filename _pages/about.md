@@ -12,7 +12,6 @@ Linli is a Ph.D. candidate in Social Science and Comparative Education at UCLA. 
 
 Check out my works
 ======
-[Resume](https://www.linkedin.com/in/linlizhou/)
 
 [Publication](https://tinyurl.com/LinliScholar)
 
