@@ -13,7 +13,7 @@ Linli earned her PhD in Education from University of California, Los Angeles (UC
 In addition to her role as a mixed-method researcher, Linli also teaches introductory statistics and qualitative research design to undergraduate students. Linli loves to work with different people, collaborate, and learn from each other. In her spare time, Linli enjoys listening to music, cooking, reading, writing, hiking, and traveling.
 
 Check out my works:
-======
+------
 
 **[Publication](https://tinyurl.com/LinliScholar)**
 
