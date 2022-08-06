@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Linli Zhou, Researcher/ Data Analyst" #"Linli Zhou / HomePage" when having multiple page in the navigation_bar in _data folder in this repo
 title_separator          : "-"
-name                     : &name "Linli Zhou"
+name                     : &name "Linli Zhou, PhD"
 description              : &description "personal description"
 url                      : "https://ZhouLinli.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Linli Zhou"
   avatar           : "profile.png"
-  bio              : "Ph.D., Graduate School of Education and Information Studies, University of California, Los Angeles (UCLA)"
+  bio              : "Institutional Research Analyst"#"Ph.D., Graduate School of Education and Information Studies, University of California, Los Angeles (UCLA)"
   location         : "Seattle, WA | Dallas, TX | Boston, MA"
   employer         : "Lasell University (Newton, MA)"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
