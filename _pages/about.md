@@ -16,10 +16,10 @@ Check out my works
 ======
 
 [Publication](https://tinyurl.com/LinliScholar)
-
+[Data visualization](https://tinyurl.com/LinlisTableau)
 [Programming/Coding](https://github.com/ZhouLinli)
 
-[Data visualization](https://tinyurl.com/LinlisTableau)
+
 
 <!--[Resume](https://www.linkedin.com/in/linlizhou/)
 
