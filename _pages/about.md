@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Linli earned her PhD in Education from UCLA. Linli has a passion for data science, data visualization, and mixed-methods research. She conducts research to support institutional effectiveness, strategic planning, and program improvement. Some of Linli’s recent work involves using quantitative and qualitative research methodology for higher education data analysis, policy impact analysis, and campus-wide educational program evaluation and reporting.
+Linli earned her PhD in Education from UCLA. She has a passion for data science, data visualization, and mixed-methods research. Linli conducts research to support institutional effectiveness, strategic planning, and program improvement. Some of Linli’s recent work involves using quantitative and qualitative research methodology for higher education data analysis, policy impact analysis, and campus-wide educational program evaluation and reporting.
 
 In addition to her role as a mixed-method researcher, Linli also teaches introductory statistics and qualitative research design to undergraduate students. Linli loves to work with different people, collaborate, and learn from each other. In her spare time, Linli enjoys listening to music, cooking, reading, writing, and embracing nature.
 
