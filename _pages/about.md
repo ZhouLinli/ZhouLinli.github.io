@@ -15,7 +15,9 @@ In addition to her role as a mixed-method researcher, Linli also teaches introdu
 Check out my works:
 ======
 
-[Publication](https://tinyurl.com/LinliScholar) | [Data visualization](https://tinyurl.com/LinlisTableau) | [Programming/Coding](https://github.com/ZhouLinli)
+**[Publication](https://tinyurl.com/LinliScholar)**
+**[Data visualization](https://tinyurl.com/LinlisTableau)**
+**[Programming/Coding](https://github.com/ZhouLinli)**
 
 
 
