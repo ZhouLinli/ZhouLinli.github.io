@@ -111,9 +111,9 @@ author:
   tumblr           :
   twitter          : "https://twitter.com/Linli_Zhou"
   vine             :
-  weibo            : "https://tinyurl.com/LinliDataScienceBlog"
+  weibo            : #"https://tinyurl.com/LinliDataScienceBlog"#can't work
   xing             :
-  youtube          : "https://tinyurl.com/LinliYoutube"
+  youtube          : "https://www.youtube.com/channel/UCKQzmwkrXqSPv4Lmw6D9F1w"
   wikipedia        :
 
 
