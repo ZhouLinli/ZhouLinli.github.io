@@ -8,7 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Linli is a Ph.D. candidate in Social Science and Comparative Education at UCLA. Linli conducts institutional effectiveness research in higher education. She aims to support students from diverse ethnic and cultural backgrounds to gain a holistic learning experience and develop career and civic competencies. Some of Linli’s recent work involves using quantitative and qualitative research methodology for higher education data analysis, policy impact analysis, and international education program evaluation. In addition to her role as a mixed-method researcher, Linli also teaches undergraduate students about introductory statistics and qualitative research design. Before coming to UCLA, Linli worked in international academic affairs at Duke Kunshan University and the University of Southern California. In her spare time, Linli enjoys mindfulness activities and practices meditation every day.
+Linli earned her PhD in Education from UCLA. Linli has a passion for data science, data visualization, and mixed-methods research. She conducts research to support institutional effectiveness, strategic planning, and program improvement. Some of Linli’s recent work involves using quantitative and qualitative research methodology for higher education data analysis, policy impact analysis, and campus-wide educational program evaluation and reporting.
+
+In addition to her role as a mixed-method researcher, Linli also teaches introductory statistics and qualitative research design. Before coming to UCLA, Linli worked in international academic affairs at Duke Kunshan University and the University of Southern California. 
+
+In her spare time, Linli enjoys listening to music, reading and writing, and embracing nature.
 
 Check out my works
 ======
