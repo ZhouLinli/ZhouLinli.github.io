@@ -83,11 +83,11 @@ author:
   name             : "Linli Zhou"
   avatar           : "profile.png"
   bio              : "Ph.D., Graduate School of Education and Information Studies, University of California, Los Angeles (UCLA)"
-  location         : 
-  employer         :
+  location         : "Seattle, WA | Dallas, TX | Boston, MA, USA"
+  employer         : "Lasell University (Newton, MA)"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://tinyurl.com/LinliScholar"
-  email            : "linli.zhou@ucla.edu"
+  email            : "llz1722@g.ucla.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -113,7 +113,7 @@ author:
   vine             :
   weibo            : #"https://tinyurl.com/LinliDataScienceBlog"#can't work
   xing             :
-  youtube          : #"https://www.youtube.com/channel/UCKQzmwkrXqSPv4Lmw6D9F1w" #have to be youtube.com/user
+  youtube          : "https://www.youtube.com/channel/UCKQzmwkrXqSPv4Lmw6D9F1w" #have to be youtube.com/user
   wikipedia        :
 
 
