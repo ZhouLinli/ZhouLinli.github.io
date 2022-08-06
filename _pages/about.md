@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Linli Zhou is a Institutional Research Analyst"
+title: "Linli Zhou is an Institutional Research Analyst"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
