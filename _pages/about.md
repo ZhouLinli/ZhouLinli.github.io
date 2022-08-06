@@ -19,8 +19,9 @@ Check out my works
 
 [Data visualization](https://tinyurl.com/LinlisTableau)
 
-[Youtube](https://tinyurl.com/LinliYoutube)
+<!--[Resume](https://www.linkedin.com/in/linlizhou/)
 
-[Blog(Chinese)](https://tinyurl.com/LinliDataScienceBlog)
+<!--[Blog(Chinese)](https://tinyurl.com/LinliDataScienceBlog)-->
 
-[Blog(English)](https://medium.com/@linlizhou.fm)
+<!--[Blog(English)](https://medium.com/@linlizhou.fm)
+<!-- [Youtube](https://tinyurl.com/LinliYoutube) -->
