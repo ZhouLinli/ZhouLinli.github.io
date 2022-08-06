@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Linli Zhou"
+  name             : "Linli Zhou, PhD"
   avatar           : "profile.png"
-  bio              : "Institutional Research Analyst"#"Ph.D., Graduate School of Education and Information Studies, University of California, Los Angeles (UCLA)"
+  bio              : "Graduate School of Education and Information Studies, University of California, Los Angeles (UCLA)"
   location         : "Seattle, WA | Dallas, TX | Boston, MA"
   employer         : "Lasell University (Newton, MA)"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
