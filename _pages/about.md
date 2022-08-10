@@ -17,9 +17,9 @@ In addition to her role as a mixed-method researcher, Linli also teaches introdu
 Check out Linli's works:
 ------
 
-**[RPubs Programming/Coding](https://rpubs.com/llz1722)**
+**[RPubs: Coding/Programming](https://rpubs.com/llz1722)**
 
-**[Tableau Data visualization](https://tinyurl.com/LinlisTableau)**
+**[Tableau: Data visualization](https://tinyurl.com/LinlisTableau)**
 
 
 
