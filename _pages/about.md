@@ -19,9 +19,9 @@ Check out Linli's works:
 
 **[Publication](https://tinyurl.com/LinliScholar)**
 
-**[Data visualization](https://tinyurl.com/LinlisTableau)**
+**[Tableau Data visualization](https://tinyurl.com/LinlisTableau)**
 
-**[Programming/Coding](https://github.com/ZhouLinli)**
+**[RPubs Programming/Coding](https://rpubs.com/llz1722)**
 
 
 
