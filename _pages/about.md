@@ -17,17 +17,15 @@ In addition to her role as a mixed-method researcher, Linli also teaches introdu
 Check out Linli's works:
 ------
 
-**[Publication](https://tinyurl.com/LinliScholar)**
+**[RPubs Programming/Coding](https://rpubs.com/llz1722)**
 
 **[Tableau Data visualization](https://tinyurl.com/LinlisTableau)**
 
-**[RPubs Programming/Coding](https://rpubs.com/llz1722)**
 
 
-
+<!--**[Publication](https://tinyurl.com/LinliScholar)**
 <!--[Resume](https://www.linkedin.com/in/linlizhou/)
 
 <!--[Blog(Chinese)](https://tinyurl.com/LinliDataScienceBlog)-->
-
 <!--[Blog(English)](https://medium.com/@linlizhou.fm)
 <!-- [Youtube](https://tinyurl.com/LinliYoutube) -->
