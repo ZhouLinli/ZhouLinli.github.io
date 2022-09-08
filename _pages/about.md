@@ -14,7 +14,7 @@ In addition to her role as a data analyst, Linli teaches introductory statistics
 
 ## Check out Linli's Data Analytics Research Projects:
 
-| Sample Projects            | Feature of Methodology   | Description                                                             |
+| Sample Projects            | Methodology   | Description                                                             |
 | --------         | ------ | ------------------------------------------------------------ |
 | [Faculty Tenure Analysis](https://ym205k-linli.shinyapps.io/FacultyTenureAnalysis/)    | Data Visualization (Interactive)   | Research Question: How has the proportion of tenure-line faculty changed during 2016-2021 for faculty with different rank, racial, sex, and across departments?                         |
 | [Data Integrity Efforts](https://github.com/ZhouLinli/IR-Projects/blob/main/Program%20Evaluation/LMSCanvasAccuracy.md)    | Database Cross-checking  | Validating Data in the learning management system Canvas and Registrar database   |
