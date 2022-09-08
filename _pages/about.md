@@ -15,9 +15,8 @@ In addition to her role as a data analyst, Linli teaches introductory statistics
 Check out Linli's work:
 ------
 
-## **[Linli's Data Analytics Research Projects](https://github.com/ZhouLinli/IR-Projects)**
+## **A [Repository](https://github.com/ZhouLinli/IR-Projects) of Linli's Data Analytics Research Projects**
 
-### Table 1
 
 | Sample            | Programming Lanaguage   | Description                                                             |
 | --------         | ------ | ------------------------------------------------------------ |
