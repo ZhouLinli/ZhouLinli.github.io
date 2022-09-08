@@ -12,16 +12,19 @@ Linli earned her PhD in Education from University of California, Los Angeles (UC
 
 In addition to her role as a data analyst, Linli teaches introductory statistics. In her spare time, Linli enjoys listening to music, drawing, cooking, reading, writing, hiking, traveling, and talking to and learning from different people.
 
-# Check out Linli's work:
+## Check out Linli's Data Analytics Research Projects:
 
 
-| Sample            | Programming Lanaguage   | Description                                                             |
+| Sample Project            | Feature   | Description                                                             |
 | --------         | ------ | ------------------------------------------------------------ |
-| [PlacementMethod](https://github.com/ZhouLinli/IR-Projects/blob/main/Data%20Reporting/AggregateData.Viz.md)    | R   | How did the change in placement methods impact placement into transfer-level English?                          |
-| [Jane Doe](#)    | 2019   | Description of the item in the list                          |
-| [Doe Doe](#)     | 2022   | Description of the item in the list                          |
+| [FacultyTenure](https://ym205k-linli.shinyapps.io/FacultyTenureAnalysis/)    | Interactive Dashboard Included   | How has the proportion of tenure-line faculty changed during 2016-2021 for faculty with different rank, racial, sex, and across departments?                         |
+| [DatabaseCross-checking](https://github.com/ZhouLinli/IR-Projects/blob/main/Program%20Evaluation/LMSCanvasAccuracy.md)    | Full report  | Validating Data in the learning management system Canvas and Registrar database   |
+| [PlacementMethod](https://github.com/ZhouLinli/IR-Projects/blob/main/Data%20Reporting/AggregateData.Viz.md)    | Course Evaluation | How did the change in placement methods impact placement into transfer-level English?                          |
+| [Course Requirement](https://github.com/ZhouLinli/IR-Projects/blob/main/Program%20Evaluation/CourseReq.md)     | WebScrapping   | Automatically extract data about university major requirement on website                         |
 
-### For more details, check out Linli's [Repository](https://github.com/ZhouLinli/IR-Projects) of Data Analytics Research Projects
+<!--| []()    |  |    |
+
+### For more details, check out Linli's [Github Repository](https://github.com/ZhouLinli/IR-Projects)
 
 <!--**[RPubs: Coding/Programming](https://rpubs.com/llz1722)**
 <!--**[Tableau: Data visualization](https://tinyurl.com/LinlisTableau)**
