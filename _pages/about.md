@@ -17,6 +17,16 @@ Check out Linli's work:
 
 **[Linli's Data Analytics Research Projects](https://github.com/ZhouLinli/IR-Projects)**
 
+### Table 1
+
+| Sample            | Programming Lanaguage   | Description                                                             |
+| --------         | ------ | ------------------------------------------------------------ |
+| [PlacementMethod](https://github.com/ZhouLinli/IR-Projects/blob/main/Data%20Reporting/AggregateData.Viz.md)    | R   | How did the change in placement methods impact placement into transfer-level English?                          |
+| [Jane Doe](#)    | 2019   | Description of the item in the list                          |
+| [Doe Doe](#)     | 2022   | Description of the item in the list                          |
+
+
+
 <!--**[RPubs: Coding/Programming](https://rpubs.com/llz1722)**
 <!--**[Tableau: Data visualization](https://tinyurl.com/LinlisTableau)**
 
