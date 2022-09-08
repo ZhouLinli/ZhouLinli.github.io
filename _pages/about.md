@@ -12,10 +12,10 @@ Linli earned her PhD in Education from University of California, Los Angeles (UC
 
 In addition to her role as a data analyst, Linli teaches introductory statistics. In her spare time, Linli enjoys listening to music, drawing, cooking, reading, writing, hiking, traveling, and talking to and learning from different people.
 
-Check out Linli's work:
+# Check out Linli's work:
 ------
 
-## **A [Repository](https://github.com/ZhouLinli/IR-Projects) of Linli's Data Analytics Research Projects**
+## A [Repository](https://github.com/ZhouLinli/IR-Projects) of Linli's Data Analytics Research Projects
 
 
 | Sample            | Programming Lanaguage   | Description                                                             |
