@@ -15,11 +15,10 @@ In addition to her role as a mixed-method researcher, Linli also teaches introdu
 Check out Linli's works:
 ------
 
-**[A Repository of Institutional Research Projects](https://github.com/ZhouLinli/IR-Projects)
+**[Linli's Data Analytics Research Projects](https://github.com/ZhouLinli/IR-Projects)**
 
-**[RPubs: Coding/Programming](https://rpubs.com/llz1722)**
-
-**[Tableau: Data visualization](https://tinyurl.com/LinlisTableau)**
+<!--**[RPubs: Coding/Programming](https://rpubs.com/llz1722)**
+<!--**[Tableau: Data visualization](https://tinyurl.com/LinlisTableau)**
 
 
 
