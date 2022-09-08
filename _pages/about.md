@@ -13,9 +13,6 @@ Linli earned her PhD in Education from University of California, Los Angeles (UC
 In addition to her role as a data analyst, Linli teaches introductory statistics. In her spare time, Linli enjoys listening to music, drawing, cooking, reading, writing, hiking, traveling, and talking to and learning from different people.
 
 # Check out Linli's work:
-------
-
-## A [Repository](https://github.com/ZhouLinli/IR-Projects) of Linli's Data Analytics Research Projects
 
 
 | Sample            | Programming Lanaguage   | Description                                                             |
@@ -24,7 +21,7 @@ In addition to her role as a data analyst, Linli teaches introductory statistics
 | [Jane Doe](#)    | 2019   | Description of the item in the list                          |
 | [Doe Doe](#)     | 2022   | Description of the item in the list                          |
 
-
+### For more details, check out Linli's [Repository](https://github.com/ZhouLinli/IR-Projects) of Data Analytics Research Projects
 
 <!--**[RPubs: Coding/Programming](https://rpubs.com/llz1722)**
 <!--**[Tableau: Data visualization](https://tinyurl.com/LinlisTableau)**
