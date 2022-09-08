@@ -14,15 +14,14 @@ In addition to her role as a data analyst, Linli teaches introductory statistics
 
 ## Check out Linli's Data Analytics Research Projects:
 
-
-| Sample Project            | Feature   | Description                                                             |
+| Sample Project            | Feature of Methodology   | Description                                                             |
 | --------         | ------ | ------------------------------------------------------------ |
-| [FacultyTenure](https://ym205k-linli.shinyapps.io/FacultyTenureAnalysis/)    | Interactive Dashboard Included   | How has the proportion of tenure-line faculty changed during 2016-2021 for faculty with different rank, racial, sex, and across departments?                         |
-| [DatabaseCross-checking](https://github.com/ZhouLinli/IR-Projects/blob/main/Program%20Evaluation/LMSCanvasAccuracy.md)    | Full report  | Validating Data in the learning management system Canvas and Registrar database   |
-| [PlacementMethod](https://github.com/ZhouLinli/IR-Projects/blob/main/Data%20Reporting/AggregateData.Viz.md)    | Course Evaluation | How did the change in placement methods impact placement into transfer-level English?                          |
-| [Course Requirement](https://github.com/ZhouLinli/IR-Projects/blob/main/Program%20Evaluation/CourseReq.md)     | WebScrapping   | Automatically extract data about university major requirement on website                         |
+| [Faculty Tenure Analysis](https://ym205k-linli.shinyapps.io/FacultyTenureAnalysis/)    | Data Visualization (Interactive)   | How has the proportion of tenure-line faculty changed during 2016-2021 for faculty with different rank, racial, sex, and across departments?                         |
+| [Database Cross-checking](https://github.com/ZhouLinli/IR-Projects/blob/main/Program%20Evaluation/LMSCanvasAccuracy.md)    | Data Integrity Assessment  | Validating Data in the learning management system Canvas and Registrar database   |
+| [Impact of Placement Method](https://github.com/ZhouLinli/IR-Projects/blob/main/Data%20Reporting/AggregateData.Viz.md)    | Course Evaluation | How did the change in placement methods impact placement into transfer-level English?                          |
+| [Courses for Major/Minor Programs](https://github.com/ZhouLinli/IR-Projects/blob/main/Program%20Evaluation/CourseReq.md)     | WebScrapping for Data Collection   | Automatically extract data about university major requirement on website                         |
 
-<!--| []()    |  |    |
+<!--| []()    |  |    |-->
 
 ### For more details, check out Linli's [Github Repository](https://github.com/ZhouLinli/IR-Projects)
 
