@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Linli earned her PhD in Education from University of California, Los Angeles (UCLA). She conducts research to support student success and program effectiveness in higher education. Linli is experienced in data analytics, data visualization, and mixed-methods research. Linli’s recent work involves using quantitative and qualitative research methodology for higher education data analysis, policy impact analysis, and campus-wide educational program evaluation and reporting.
+Linli earned her PhD in Education from University of California, Los Angeles (UCLA). She is experienced in data analytics, data visualization, and mixed-methods research. Linli’s recent work involves database analysis, campus-wide survey assessment and benchmarking, and program evaluation and reporting.
 
-In addition to her role as a mixed-method researcher, Linli also teaches introductory statistics and qualitative research design to undergraduate students. Linli loves to work with different people, collaborate, and learn from each other. In her spare time, Linli enjoys listening to music, drawing, cooking, reading, writing, hiking, and traveling.
+In addition to her role as a data analyst, Linli teaches introductory statistics. In her spare time, Linli enjoys listening to music, drawing, cooking, reading, writing, hiking, traveling, and talking to and learning from different people.
 
 Check out Linli's work:
 ------
