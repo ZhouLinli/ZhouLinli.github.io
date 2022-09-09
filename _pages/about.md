@@ -23,7 +23,7 @@ In addition to her role as a data analyst, Linli teaches introductory statistics
 
 <!--| []()    |  |    |-->
 
-### For more details, check out Linli's [Github Repository](https://github.com/ZhouLinli/IR-Projects)
+### For more details, please visit Linli's [Github Repository](https://github.com/ZhouLinli/IR-Projects)
 
 <!--**[RPubs: Coding/Programming](https://rpubs.com/llz1722)**
 <!--**[Tableau: Data visualization](https://tinyurl.com/LinlisTableau)**
