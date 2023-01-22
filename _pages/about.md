@@ -14,22 +14,22 @@ In addition to her role as a data analyst, Linli teaches introductory statistics
 
 ## Please visit a repository of Linli's [Data Analytics Research Projects](https://github.com/ZhouLinli/RCodes4DataAnalystics) for more information.
 
-<!--**|Topics|Methodology|
-<!--**|--------|------|
-<!--**|[Program Evaluation](https://github.com/ZhouLinli/IR-Projects/blob/main/Survey%20Assessment/BAMsurvey.pdf)|Data Visualization (Infographics)|
-<!--**|[Satisfaction Studies](https://github.com/ZhouLinli/IR-Projects/blob/main/Survey%20Assessment/ParentSurvey.pdf)|Survey Design and Analysis|
+<!--**|Topics|Methodology|-->
+<!--**|--------|------|-->
+<!--**|[Program Evaluation](https://github.com/ZhouLinli/IR-Projects/blob/main/Survey%20Assessment/BAMsurvey.pdf)|Data Visualization (Infographics)|-->
+<!--**|[Satisfaction Studies](https://github.com/ZhouLinli/IR-Projects/blob/main/Survey%20Assessment/ParentSurvey.pdf)|Survey Design and Analysis|-->
 
 
 
-<!--hide below
+<!--hide below-->
 <!--format is: | []()    |  |    |-->
 
-<!--**| [Faculty Tenure](https://ym205k-linli.shinyapps.io/FacultyTenureAnalysis/)    | Interactive Viz (R Shiny)   | How has the proportion of tenure-line faculty changed during 2016-2021 for faculty with different rank, racial, sex, and across departments?    |
+<!--**| [Faculty Tenure](https://ym205k-linli.shinyapps.io/FacultyTenureAnalysis/)    | Interactive Viz (R Shiny)   | How has the proportion of tenure-line faculty changed during 2016-2021 for faculty with different rank, racial, sex, and across departments?    |-->
 
-<!--**| [Data Integrity](https://github.com/ZhouLinli/IR-Projects/blob/main/Program%20Evaluation/LMSCanvasAccuracy.md)    | Database Cross-checking  | Validating Data in the learning management system Canvas and Registrar database   |
+<!--**| [Data Integrity](https://github.com/ZhouLinli/IR-Projects/blob/main/Program%20Evaluation/LMSCanvasAccuracy.md)    | Database Cross-checking  | Validating Data in the learning management system Canvas and Registrar database   |-->
 
-<!--**| [Impact of Placement](https://github.com/ZhouLinli/IR-Projects/blob/main/Data%20Reporting/AggregateData.Viz.md)    | Course Evaluation | How did the change in placement methods impact placement into transfer-level English?                          |
-<!--**| [Major/Minor Courses](https://github.com/ZhouLinli/IR-Projects/blob/main/Program%20Evaluation/CourseReq.md)     | WebScrapping for Data Collection   | Automatically extract data about university major requirement on website                         |
+<!--**| [Impact of Placement](https://github.com/ZhouLinli/IR-Projects/blob/main/Data%20Reporting/AggregateData.Viz.md)    | Course Evaluation | How did the change in placement methods impact placement into transfer-level English?                          |-->
+<!--**| [Major/Minor Courses](https://github.com/ZhouLinli/IR-Projects/blob/main/Program%20Evaluation/CourseReq.md)     | WebScrapping for Data Collection   | Automatically extract data about university major requirement on website                         |-->
 
 
 
