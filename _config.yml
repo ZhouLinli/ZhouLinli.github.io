@@ -93,8 +93,8 @@ author:
   github           : #"ZhouLinli" #not need to add https://github.com/
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   wikipedia        :
-  youtube          : "@linlishareresearch" #have to be youtube.com/user: https://www.youtube.com/@linlishareresearch
-  YouTube: "https://www.youtube.com/@linlishareresearch"
+  youtube          : #"@linlishareresearch" #have to be youtube.com/user: https://www.youtube.com/@linlishareresearch
+  YouTube          : "https://www.youtube.com/@linlishareresearch"
   twitter          : #"Linli_Zhou" #https://twitter.com/ not needed
   weibo            : #"https://tinyurl.com/LinliDataScienceBlog"#can't work
   instagram        :
