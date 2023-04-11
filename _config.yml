@@ -94,6 +94,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   wikipedia        :
   youtube          : "@linlishareresearch" #have to be youtube.com/user: https://www.youtube.com/@linlishareresearch
+  YouTube: "https://www.youtube.com/@linlishareresearch"
   twitter          : #"Linli_Zhou" #https://twitter.com/ not needed
   weibo            : #"https://tinyurl.com/LinliDataScienceBlog"#can't work
   instagram        :
