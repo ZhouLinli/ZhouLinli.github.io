@@ -10,9 +10,9 @@ redirect_from:
 
 Linli attained her PhD in Education from the University of California, Los Angeles (UCLA). Her proficiency spans data analytics, visualization, organizational planning and survey research. Linli's recent portfolio encompasses a wide range of accomplishments, including:
 
-- Development of survey assessments tailored to various stakeholders and fostering collaboration across different campus offices.
 - University academic planning, which encompasses faculty workload and performance analysis, strategic elimination of programs, and strategies for enrollment management.
-- Provision of federal reporting and presentation of comprehensive overviews to the Board of Trustees. These overviews cover various institutional performance metrics, including student admission, enrollment, retention, graduation, and financial aid.
+- Provision of federal reporting and presentation of comprehensive overviews to the Board of Trustees. These overviews cover various university performance metrics, including student admission, enrollment, retention, graduation, and financial aid.
+- Development of survey assessments tailored to different campus offices.
 - Utilization of statistical modeling techniques to analyze NCES national datasets.
 - Creation of benchmarking dashboards utilizing IPEDS datasets.
 
