@@ -8,9 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-Linli earned her PhD in Education from University of California, Los Angeles (UCLA). She is experienced in data analytics, data visualization, and mixed-methods research. Linli’s recent work involves database analysis, campus-wide survey assessment and benchmarking, and program evaluation and reporting.
+Linli attained her PhD in Education from the University of California, Los Angeles (UCLA). Her proficiency spans data analytics, visualization, organizational planning and survey research. Linli's recent portfolio encompasses a wide range of accomplishments, including:
 
-In addition to her role as a data analyst, Linli teaches introductory statistics. In her spare time, Linli enjoys listening to music, drawing, cooking, reading, writing, hiking, traveling, and talking to and learning from different people.
+- Development of survey assessments tailored to various stakeholders and fostering collaboration across different campus offices.
+- University academic planning, which encompasses faculty workload and performance analysis, strategic elimination of programs, and strategies for enrollment management.
+- Provision of federal reporting and presentation of comprehensive overviews to the Board of Trustees. These overviews cover various institutional performance metrics, including student admission, enrollment, retention, graduation, and financial aid.
+- Utilization of statistical modeling techniques to analyze NCES national datasets.
+- Creation of benchmarking dashboards utilizing IPEDS datasets.
+
+In addition to excelling as a skilled business intelligence analyst, Linli also embraces the role of an educator, imparting knowledge in research methodology and data technology to others. During her leisure moments, Linli finds delight in conducting qualitative interviews, engaging in enlightening conversations with diverse individuals.
+
 
 ### Please visit a repository of Linli's [Data Analytics Research Projects](https://github.com/ZhouLinli/RCodes4DataAnalystics) for more information.
 
