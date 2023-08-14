@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Empowering Decisions through Data Insights -- Linli Zhou"
+title: "Linli Zhou: Empowering Decisions through Data Insights"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
