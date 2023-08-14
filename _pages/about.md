@@ -16,7 +16,7 @@ Linli attained her PhD in Education from the University of California, Los Angel
 - Utilization of statistical modeling techniques to analyze NCES national datasets.
 - Creation of benchmarking dashboards utilizing IPEDS datasets.
 
-In addition to excelling as a skilled business intelligence analyst, Linli also embraces the role of an educator, imparting knowledge in research methodology and data technology to others. During her leisure moments, Linli finds delight in conducting qualitative interviews, engaging in enlightening conversations with diverse individuals.
+In addition to excelling as a skilled researcher, Linli also embraces the role of an educator, imparting knowledge in research methodology and data technology to others. During her leisure moments, Linli finds delight in conducting qualitative interviews, engaging in enlightening conversations with diverse individuals.
 
 
 ### Please visit a repository of Linli's [Data Projects](https://github.com/ZhouLinli/RCodes4DataAnalystics) for more information.
