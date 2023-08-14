@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Linli Zhou is an expert in Organizational Decision Support & Data Technology"
+title: "Linli Zhou excels in Organizational Decision Support & Data Technology."
 excerpt: "About me"
 author_profile: true
 redirect_from: 
