@@ -7,16 +7,17 @@ redirect_from:
   - /about/
   - /about.html
 ---
+Linli earned her PhD in Education from the University of California, Los Angeles (UCLA). Her expertise encompasses data analytics, visualization, organizational planning, and survey research. Linli's recent portfolio showcases a wide array of accomplishments, including:
 
-Linli attained her PhD in Education from the University of California, Los Angeles (UCLA). Her proficiency spans data analytics, visualization, organizational planning and survey research. Linli's recent portfolio encompasses a wide range of accomplishments, including:
+- **University Strategic Planning:** Analyzing faculty workload and performance, strategically discontinuing or launching programs, and studying student flows.
 
-- University academic planning, which encompasses faculty workload and performance analysis, strategic elimination and launching of programs, and analysis of student flows.
-- Provision of federal reporting and presentation of comprehensive overviews to the Board of Trustees. These overviews cover various university performance metrics, including student yield, enrollment, retention, graduation, and financial aid.
-- Development of survey assessments tailored to different campus offices.
-- Utilization of statistical modeling techniques to analyze NCES national datasets.
-- Creation of benchmarking dashboards utilizing IPEDS datasets.
+- **Federal Reporting and Board of Trustees' Overview KPIs:** Conducting historical analysis of student admissions, enrollment, financial aid, retention, completion, satisfaction, and career outcomes.
 
-In addition to excelling as a skilled researcher, Linli also embraces the role of an educator, imparting knowledge in research methodology and data technology to others. During her leisure moments, Linli finds delight in conducting qualitative interviews, engaging in enlightening conversations with diverse individuals.
+- **Student Success Support through Survey Research:** Collaborating with various campus offices and developing surveys to assess student needs, high-impact practices, experiences, and services.
+
+- **Benchmarking from Large National Datasets:** Creating interactive dashboards and performing statistical analysis using NCES national sample surveys and IPEDS datasets.
+
+Beyond excelling as a skilled researcher, Linli also embraces the role of an educator, imparting knowledge in research methodology and data technology to others. During her leisure moments, Linli finds delight in conducting qualitative interviews and engaging in enlightening conversations with diverse individuals.
 
 
 ### Please visit a repository of Linli's [Data Projects](https://github.com/ZhouLinli/RCodes4DataAnalystics) for more information.
