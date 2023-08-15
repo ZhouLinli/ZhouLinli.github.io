@@ -11,11 +11,11 @@ Linli earned her PhD in Education from the University of California, Los Angeles
 
 - **University Strategic Planning:** Analyzing faculty workload and performance, strategically discontinuing or launching programs, and studying student flows.
 
-- **Federal Reporting and Board of Trustees' Overview KPIs:** Conducting historical analysis of student admissions, enrollment, financial aid, retention, completion, satisfaction, and career outcomes.
+- **Federal Reporting and Board of Trustees' Overview KPIs:** Conducting historical analysis and regression modeling for student admissions, enrollment, financial aid, retention, completion, satisfaction, and career outcomes.
 
 - **Student Success Support through Survey Research:** Collaborating with various campus offices and developing surveys to assess student needs, high-impact practices, experiences, and services.
 
-- **Benchmarking from Large National Datasets:** Creating interactive dashboards and performing statistical analysis using NCES national sample surveys and IPEDS datasets.
+- **Benchmarking from Large National Datasets:** Creating interactive dashboards and performing gap analysis using NCES national sample surveys and IPEDS datasets.
 
 Beyond excelling as a skilled researcher, Linli also embraces the role of an educator, imparting knowledge in research methodology and data technology to others. During her leisure moments, Linli finds delight in conducting qualitative interviews and engaging in enlightening conversations with diverse individuals.
 
