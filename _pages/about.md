@@ -7,7 +7,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Linli Zhou is an Institutional Research Analyst at Lasell University. She has a Ph.D. in Social Science and Comparative Education from the University of California, Los Angeles (UCLA). Her expertise includes data visualization, statistical modeling, machine learning, R and Python programming, survey assessment, mixed-methods research, organizational strategic planning and management. Linli is known for her engaging presentations and excels in collaboration and communication. 
+
+Linli Zhou is an accomplished Institutional Research Analyst at Lasell University, holding a Ph.D. in Social Science and Comparative Education from the University of California, Los Angeles (UCLA). Specializing in data visualization, statistical modeling, machine learning, R and Python programming, survey assessment, and mixed-methods research, she applies her expertise to enhance institutional success and strategy in higher education.
+
+Beyond her role as a skilled researcher, Linli embodies the role of an educator, adept at imparting knowledge in research methodology and data technology. She is known for her engaging presentations and excels in collaboration and communication.
+
+Driven by a deep passion for data research, Linli eagerly explores the latest technological advancements and actively shares insights with the higher education community aiming to push the boundaries of institutional research. She is dedicated to developing automated data reporting, creating accessible and captivating data visualizations, and integrating cutting-edge data modeling techniques into her work to empower higher education professionals in supporting student success more effectively.
 
 Linli's recent portfolio showcases a wide array of accomplishments, including:
 
@@ -18,9 +23,6 @@ Linli's recent portfolio showcases a wide array of accomplishments, including:
 - **Student Success Support through Survey Research:** Collaborating with various campus offices and developing surveys to assess student needs, high-impact practices, experiences, and services.
 
 - **Benchmarking from Large National Datasets:** Creating interactive dashboards and performing gap analysis using NCES national sample surveys and IPEDS datasets.
-
-Beyond excelling as a skilled researcher, Linli also embraces the role of an educator, imparting knowledge in research methodology and data technology to others. During her leisure moments, Linli finds delight in conducting qualitative interviews and engaging in enlightening conversations with diverse individuals.
-
 
 ### Please visit a repository of Linli's [Data Projects](https://github.com/ZhouLinli/RCodes4DataAnalystics) for more information.
 
