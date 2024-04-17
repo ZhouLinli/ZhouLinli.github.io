@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Linli earned her PhD in Education from the University of California, Los Angeles (UCLA). Her expertise encompasses data analytics, visualization, organizational planning, and survey research. Linli's recent portfolio showcases a wide array of accomplishments, including:
+Linli Zhou is an Institutional Research Analyst at Lasell University. She has a Ph.D. in Social Science and Comparative Education from the University of California, Los Angeles (UCLA). Her expertise includes data visualization, statistical modeling, machine learning, R and Python programming, survey assessment, mixed-methods research, organizational strategic planning and management, and working with large datasets. Linli is known for her engaging presentations and excels in collaboration and communication. Her recent portfolio showcases a wide array of accomplishments, including:
 
 - **University Strategic Planning:** Analyzing faculty workload and performance, strategically discontinuing or launching programs, and studying student flows.
 
