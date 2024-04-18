@@ -12,7 +12,7 @@ Linli Zhou is an accomplished Institutional Research Analyst at Lasell Universit
 
 Driven by a deep passion for data research, Linli eagerly explores innovative ways to automate data reporting and review, design accessible data visualizations, and integrate cutting-edge data modeling techniques into analytics. Her ultimate goal is to empower higher education professionals to support student success more effectively.
 
-Beyond her role as a skilled and passionate researcher, Linli is also an educator adept at teaching and sharing research methodology with the IR community. She leads professional development initiatives for the IR community and serves as the elected Member-at-Large for the Overseas Chinese Association of Institutional Research (OCAIR) and on the conference planning committee for the North East Association of Institutional Research (NEAIR).
+Beyond her role as a skilled and passionate researcher, Linli is also an educator adept at teaching and sharing research methodology. She leads professional development initiatives for the institutional research (IR) community and serves as the elected Member-at-Large for the Overseas Chinese Association of Institutional Research (OCAIR) and on the conference planning committee for the North East Association of Institutional Research (NEAIR).
 
 Linli's recent portfolio showcases a wide array of accomplishments, including:
 
