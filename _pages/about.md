@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Linli Zhou is an accomplished Institutional Research Analyst at Lasell University, holding a Ph.D. in Social Science and Comparative Education from the University of California, Los Angeles (UCLA). Specializing in data visualization, statistical modeling, machine learning, R and Python programming, survey assessment, and mixed-methods research, she applies her expertise to enhance institutional success and strategy in higher education.
+Linli Zhou is an accomplished Institutional Research Analyst at Lasell University, holding a Ph.D. in Social Science and Comparative Education from the University of California, Los Angeles (UCLA). Her expertise spans data visualization, statistical modeling, machine learning, R and Python programming, survey assessment, and mixed-methods research, with a focus on student success, program planning, and institutional strategy in higher education.
 
-Driven by a deep passion for data research, Linli eagerly explores the latest technological and methodological advancements and shares insights with the higher education community. Aspiring to push the boundaries of institutional research, Linli is dedicated to developing automated data reporting, creating accessible and captivating data visualizations, and integrating cutting-edge data modeling techniques into her work to empower higher education professionals in supporting student success more effectively.
+Driven by a deep passion for data research, Linli eagerly explores innovative ways to automate data reporting and review, design accessible data visualizations, and integrate cutting-edge data modeling techniques into analytics. Her ultimate goal is to empower higher education professionals to support student success more effectively.
 
-Beyond her role as a skilled researcher, Linli embodies the role of an educator, adept at teaching research methodology and data technology. Known for her engaging presentations, she excels in collaboration and communication.
+Beyond her role as a skilled and passionate researcher, Linli is also an educator adept at teaching and sharing research methodology with the IR community. She leads professional development initiatives for the IR community and serves as the elected Member-at-Large for the Overseas Chinese Association of Institutional Research (OCAIR) and on the conference planning committee for the North East Association of Institutional Research (NEAIR).
 
 Linli's recent portfolio showcases a wide array of accomplishments, including:
 
