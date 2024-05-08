@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Linli Zhou is an accomplished Institutional Research Analyst at Lasell University, holding a Ph.D. in Social Science and Comparative Education from the University of California, Los Angeles (UCLA). Her expertise spans data visualization, statistical modeling, machine learning, R and Python programming, survey assessment, and mixed-methods research, with a focus on student success, program evaluation, and institutional strategy in higher education.
+Linli Zhou is a Institutional Research Analyst at Lasell University, holding a Ph.D. in Social Science and Comparative Education from the University of California, Los Angeles (UCLA). Her expertise spans data visualization, statistical modeling, machine learning, R and Python programming, survey assessment, and mixed-methods research, with a focus on student success, program evaluation, and institutional strategy in higher education.
 
 Driven by a deep passion for data research, Linli eagerly explores innovative ways to automate data reporting and review, design accessible data visualizations, and integrate cutting-edge data modeling techniques into analytics. Her ultimate goal is to empower higher education professionals to support student success more effectively.
 
-Beyond her role as a skilled and passionate researcher, Linli is also an educator adept at teaching and sharing research methodology. She leads professional development initiatives for the institutional research (IR) community and serves as the elected Member-at-Large for the Overseas Chinese Association of Institutional Research (OCAIR) and on the conference planning committee for the North East Association of Institutional Research (NEAIR).
+Beyond her role as a skilled and passionate researcher, Linli is also an educator adept at teaching and sharing research methodology. She leads professional development initiatives for the institutional research (IR) community, serving as the elected Member-at-Large for the Overseas Chinese Association of Institutional Research (OCAIR) and on the conference planning committee for the North East Association of Institutional Research (NEAIR). Linli was honored with the inaugural "Rising Star Award" from the Association of Institutional Research (AIR) in 2024.
 
 Linli's recent portfolio showcases a wide array of accomplishments, including:
 
