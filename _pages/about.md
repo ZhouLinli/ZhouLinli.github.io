@@ -18,7 +18,7 @@ Linli's recent portfolio showcases a wide array of accomplishments, including:
 
 - **Predictive Analytics**: Building data models to enhance supportive interventions for student success across academic, social, and career outcomes, as well as improving institutional effectiveness in areas such as enrollment, retention, and graduation rates.
   
-- **Policy and Program Evaluation**: Evaluating policies (e.g., financial aid strategies) and reviewing programs at various levels—including student, faculty ([dashboard](https://ym205k-linli.shinyapps.io/FacultyTenureAnalysis/)), course, and services—to optimize resource allocation, budgeting, and planning.
+- **Policy and Program Evaluation**: Evaluating policies (e.g., financial aid strategies) and reviewing programs at various levels—including students, faculty, courses, and services—to optimize resource allocation, budgeting, and planning.
   
 <!--- - **University Strategic Planning:** Analyzing faculty([dashboard](https://ym205k-linli.shinyapps.io/FacultyTenureAnalysis/)) workload and performance, strategically discontinuing or launching programs, and studying student flows.-->
 
@@ -27,7 +27,7 @@ Linli's recent portfolio showcases a wide array of accomplishments, including:
 
 - **Data Management and Visualization**: Cultivating a culture of data quality assurance by implementing best practices for ensuring data cleanliness, enhancing efficiency and consistency through coding in SQL, R, and Python, and presenting data through compelling visualizations.
   
-- **Benchmarking with National Datasets**: Identifying peer institutions and comparing institutional effectiveness metrics using national databases such as NCES national sample surveys and IPEDS datasets.
+- **Benchmarking with National Datasets**: Identifying peer institutions and comparing institutional effectiveness metrics using national database such as National Center for Education Statistics (NCES) national sample surveys and IPEDS datasets.
 
 ### Please visit a repository of Linli's [Data Projects](https://github.com/ZhouLinli/RCodes4DataAnalystics) for more information.
 
