@@ -16,13 +16,18 @@ Beyond her role as a skilled and passionate researcher, Linli is also an educato
 
 Linli's recent portfolio showcases a wide array of accomplishments, including:
 
-- **University Strategic Planning:** Analyzing faculty workload and performance, strategically discontinuing or launching programs, and studying student flows.
+- **Predictive Analytics**: Building data models to enhance supportive interventions for student success across academic, social, and career outcomes, as well as improving institutional effectiveness in areas such as enrollment, retention, and graduation rates.
+  
+- **Policy and Program Evaluation**: Evaluating policies (e.g., financial aid strategies) and reviewing programs at various levels—including student, faculty ([dashboard](https://ym205k-linli.shinyapps.io/FacultyTenureAnalysis/)), course, and services—to optimize resource allocation, budgeting, and planning.
+  
+<!--- - **University Strategic Planning:** Analyzing faculty([dashboard](https://ym205k-linli.shinyapps.io/FacultyTenureAnalysis/)) workload and performance, strategically discontinuing or launching programs, and studying student flows.-->
 
-- **Federal Reporting and Board of Trustees' Overview KPIs:** Conducting historical analysis and regression modeling for student admissions, enrollment, financial aid, retention, completion, satisfaction, and career outcomes.
+<!--- **Federal Reporting and Board of Trustees' Overview KPIs:** Conducting historical analysis and regression modeling for student admissions, enrollment, financial aid, retention, completion, satisfaction, and career outcomes.-->
+- **Survey and Mixed-Methods Research**: Collaborating with offices and service providers to develop surveys and focus groups that address their improvement needs. This includes assessing student needs and evaluating interventions and high-impact practices.
 
-- **Student Success Support through Survey Research:** Collaborating with various campus offices and developing surveys to assess student needs, high-impact practices, experiences, and services.
-
-- **Benchmarking from Large National Datasets:** Creating interactive dashboards and performing gap analysis using NCES national sample surveys and IPEDS datasets.
+- **Data Management and Visualization**: Cultivating a culture of data quality assurance by implementing best practices for ensuring data cleanliness, enhancing efficiency and consistency through coding in SQL, R, and Python, and presenting data through compelling visualizations.
+  
+- **Benchmarking with National Datasets**: Identifying peer institutions and comparing institutional effectiveness metrics using national databases such as NCES national sample surveys and IPEDS datasets.
 
 ### Please visit a repository of Linli's [Data Projects](https://github.com/ZhouLinli/RCodes4DataAnalystics) for more information.
 
