@@ -18,7 +18,7 @@ Beyond her role as a skilled and passionate researcher, Linli is also an educato
 
 Linli's recent portfolio showcases a wide array of accomplishments, including:
 
-- **Predictive Analytics**: Building data models to enhance supportive interventions for student success across academic, social, and career outcomes, as well as improving institutional effectiveness in areas such as enrollment, retention, and graduation rates.
+- **Predictive Analytics**: Developing data models to enhance student success programs across academic, social, and career outcomes, and improving institutional effectiveness in enrollment, retention, and graduation rates.
 
 - **Data Management and Visualization**: Cultivating a culture of data quality assurance by implementing best practices for ensuring data cleanliness, enhancing efficiency and consistency through coding in SQL, R, and Python, and presenting data through compelling visualizations.
 
