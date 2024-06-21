@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Linli Zhou is an Institutional Research Analyst at Lasell University, holding a Ph.D. in Social Science and Comparative Education from the University of California, Los Angeles (UCLA). Her expertise spans mixed-methods research, data visualization, data visualization, R and Python programming, with a focus on student success, program evaluation, and institutional strategy in higher education.
+Linli Zhou is an Institutional Research Analyst at Lasell University, holding a Ph.D. in Social Science and Comparative Education from the University of California, Los Angeles (UCLA). Her expertise spans statistical modeling, data visualization, R and Python programming, mixed-methods research, with a focus on student success, program evaluation, and institutional strategy in higher education.
 
 Driven by a deep passion for data research, Linli eagerly explores innovative ways to automate data reporting and review, design accessible data visualizations, and integrate cutting-edge data modeling techniques into analytics. Her ultimate goal is to empower higher education professionals to support student success more effectively.
 
