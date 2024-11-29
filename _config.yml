@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Linli Zhou, PhD, Institutional Research Analyst / Business Intelligence / Data Scientist" #"Linli Zhou / HomePage" when having multiple page in the navigation_bar in _data folder in this repo
+title                    : "Linli Zhou, PhD, Data Analyst / Higher Education Researcher" #"Linli Zhou / HomePage" when having multiple page in the navigation_bar in _data folder in this repo
 title_separator          : "-"
 name                     : &name "Linli Zhou, PhD"
 description              : &description "personal description"
