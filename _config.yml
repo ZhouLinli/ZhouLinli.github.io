@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Linli Zhou, PhD, Data Analyst / Higher Education Researcher" #"Linli Zhou / HomePage" when having multiple page in the navigation_bar in _data folder in this repo
+title                    : "Linli Zhou, PhD, Data Analyst - Institutional Research" #"Linli Zhou / HomePage" when having multiple page in the navigation_bar in _data folder in this repo
 title_separator          : "-"
 name                     : &name "Linli Zhou, PhD"
 description              : &description "personal description"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Linli Zhou, PhD"
   avatar           : "profile.png"
-  bio              : "Institutional Research Analyst"
+  bio              : "Researcher"
   location         : "Santa Clara, CA" #| Seattle, WA
   employer         : "Lasell University (Newton, MA)"
   email            : "linli.zhou@ucla.edu"
