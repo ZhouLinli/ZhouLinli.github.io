@@ -13,16 +13,16 @@
 #   3. Copy an article block below, paste at the bottom, update link + abstract.
 # =============================================================================
 layout: single
-title: "Tab One — Subtab B"    # ← CHANGE THIS: subtab page heading
-permalink: /tab-one/subtab-b/  # ← keep in sync with navigation.yml
+title: "Data Visualization"    # ← CHANGE THIS: subtab page heading
+permalink: /Research/Data-Visualization/  # ← keep in sync with navigation.yml
 author_profile: true
 ---
-
 <!-- =========================================================================
      SUBTAB LISTING PAGE — article entries: linked title + abstract paragraph
      ========================================================================= -->
 
 <!-- ---------------------------------------------------------------- ARTICLE 1 -->
+
 ### [Placeholder Article Title 1B-1](/tab-one/subtab-b/article-1/)
 
 This is a placeholder abstract for Article 1B-1. Replace this paragraph with a concise 2–3 sentence summary that tells readers what the article is about and why it is worth reading.
@@ -30,6 +30,7 @@ This is a placeholder abstract for Article 1B-1. Replace this paragraph with a c
 ---
 
 <!-- ---------------------------------------------------------------- ARTICLE 2 -->
+
 ### [Placeholder Article Title 1B-2](/tab-one/subtab-b/article-2/)
 
 This is a placeholder abstract for Article 1B-2. Replace this paragraph with a concise 2–3 sentence summary that tells readers what the article is about and why it is worth reading.
@@ -37,6 +38,7 @@ This is a placeholder abstract for Article 1B-2. Replace this paragraph with a c
 ---
 
 <!-- ---------------------------------------------------------------- ARTICLE 3 -->
+
 ### [Placeholder Article Title 1B-3](/tab-one/subtab-b/article-3/)
 
 This is a placeholder abstract for Article 1B-3. Replace this paragraph with a concise 2–3 sentence summary that tells readers what the article is about and why it is worth reading.

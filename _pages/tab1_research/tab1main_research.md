@@ -15,10 +15,9 @@
 # =============================================================================
 layout: single
 title: "Tab One"               # ← CHANGE THIS: page heading
-permalink: /tab-one/           # ← keep in sync with navigation.yml url for Tab One
+permalink: /Research/           # ← keep in sync with navigation.yml url for Tab One
 author_profile: true
 ---
-
 <!-- =========================================================================
      TAB LANDING PAGE
      Each subtab is shown as a card: a linked subtab name + a short description.
@@ -33,6 +32,7 @@ author_profile: true
      URL:         change the path inside (...) — must match the subtab's permalink
      Description: replace the paragraph below with a short 1–2 sentence summary
      ---------------------------------------------------------------- -->
+
 ## [Tab One — Subtab A](/tab-one/subtab-a/)
 
 A brief description of what Subtab A covers. Replace this with 1–2 sentences that help visitors decide whether to click in.
@@ -42,9 +42,14 @@ A brief description of what Subtab A covers. Replace this with 1–2 sentences t
 <!-- ----------------------------------------------------------------
      SUBTAB CARD 2
      ---------------------------------------------------------------- -->
+
 ## [Tab One — Subtab B](/tab-one/subtab-b/)
 
 A brief description of what Subtab B covers. Replace this with 1–2 sentences that help visitors decide whether to click in.
+
+## [Tab Two — Subtab C](/tab-two/subtab-c/)
+
+A brief description of what Subtab C covers. Replace this with 1–2 sentences that help visitors decide whether to click in.
 
 ---
 

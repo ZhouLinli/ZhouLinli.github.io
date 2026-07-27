@@ -8,44 +8,44 @@ This document explains how the navigation tabs and hover dropdowns work, which f
 
 ```
 Nav bar
-├── Tab One                         _pages/tab-one.md
-│   ├── Tab One — Subtab A          _pages/tab-one-subtab-a.md
-│   │   ├── Article 1A-1            _pages/tab-one-subtab-a-article-1.md
-│   │   ├── Article 1A-2            _pages/tab-one-subtab-a-article-2.md
-│   │   └── Article 1A-3            _pages/tab-one-subtab-a-article-3.md
-│   └── Tab One — Subtab B          _pages/tab-one-subtab-b.md
-│       ├── Article 1B-1            _pages/tab-one-subtab-b-article-1.md
-│       ├── Article 1B-2            _pages/tab-one-subtab-b-article-2.md
-│       └── Article 1B-3            _pages/tab-one-subtab-b-article-3.md
+├── Tab One                                        _pages/tab-one/
+│   ├── Tab One — Subtab A          _pages/tab-one/subtab-a/
+│   │   ├── Article 1A-1          _pages/tab-one/subtab-a/article-1.md
+│   │   ├── Article 1A-2          _pages/tab-one/subtab-a/article-2.md
+│   │   └── Article 1A-3          _pages/tab-one/subtab-a/article-3.md
+│   └── Tab One — Subtab B          _pages/tab-one/subtab-b/
+│       ├── Article 1B-1          _pages/tab-one/subtab-b/article-1.md
+│       ├── Article 1B-2          _pages/tab-one/subtab-b/article-2.md
+│       └── Article 1B-3          _pages/tab-one/subtab-b/article-3.md
 │
-├── Tab Two                         _pages/tab-two.md
-│   ├── Tab Two — Subtab A          _pages/tab-two-subtab-a.md
-│   │   ├── Article 2A-1            _pages/tab-two-subtab-a-article-1.md
-│   │   ├── Article 2A-2            _pages/tab-two-subtab-a-article-2.md
-│   │   └── Article 2A-3            _pages/tab-two-subtab-a-article-3.md
-│   ├── Tab Two — Subtab B          _pages/tab-two-subtab-b.md
-│   │   ├── Article 2B-1            _pages/tab-two-subtab-b-article-1.md
-│   │   ├── Article 2B-2            _pages/tab-two-subtab-b-article-2.md
-│   │   └── Article 2B-3            _pages/tab-two-subtab-b-article-3.md
-│   └── Tab Two — Subtab C          _pages/tab-two-subtab-c.md
-│       ├── Article 2C-1            _pages/tab-two-subtab-c-article-1.md
-│       ├── Article 2C-2            _pages/tab-two-subtab-c-article-2.md
-│       └── Article 2C-3            _pages/tab-two-subtab-c-article-3.md
+├── Tab Two                                       _pages/tab-two/
+│   ├── Tab Two — Subtab A          _pages/tab-two/subtab-a/
+│   │   ├── Article 2A-1          _pages/tab-two/subtab-a/article-1.md
+│   │   ├── Article 2A-2          _pages/tab-two/subtab-a/article-2.md
+│   │   └── Article 2A-3          _pages/tab-two/subtab-a/article-3.md
+│   ├── Tab Two — Subtab B          _pages/tab-two/subtab-b/
+│   │   ├── Article 2B-1          _pages/tab-two/subtab-b/article-1.md
+│   │   ├── Article 2B-2          _pages/tab-two/subtab-b/article-2.md
+│   │   └── Article 2B-3          _pages/tab-two/subtab-b/article-3.md
+│   └── Tab Two — Subtab C          _pages/tab-two/subtab-c/
+│       ├── Article 2C-1          _pages/tab-two/subtab-c/article-1.md
+│       ├── Article 2C-2          _pages/tab-two/subtab-c/article-2.md
+│       └── Article 2C-3          _pages/tab-two/subtab-c/article-3.md
 │
-├── Tab Three  (no subtabs)         _pages/tab-three.md
-│   ├── Article 3-1                 _pages/tab-three-article-1.md
-│   ├── Article 3-2                 _pages/tab-three-article-2.md
-│   └── Article 3-3                 _pages/tab-three-article-3.md
+├── Tab Three  (no subtabs)                       _pages/tab-three/
+│   ├── Article 3-1              _pages/tab-three/article-1.md
+│   ├── Article 3-2              _pages/tab-three/article-2.md
+│   └── Article 3-3              _pages/tab-three/article-3.md
 │
-└── Tab Four                        _pages/tab-four.md
-    ├── Tab Four — Subtab A         _pages/tab-four-subtab-a.md
-    │   ├── Article 4A-1            _pages/tab-four-subtab-a-article-1.md
-    │   ├── Article 4A-2            _pages/tab-four-subtab-a-article-2.md
-    │   └── Article 4A-3            _pages/tab-four-subtab-a-article-3.md
-    └── Tab Four — Subtab B         _pages/tab-four-subtab-b.md
-        ├── Article 4B-1            _pages/tab-four-subtab-b-article-1.md
-        ├── Article 4B-2            _pages/tab-four-subtab-b-article-2.md
-        └── Article 4B-3            _pages/tab-four-subtab-b-article-3.md
+└── Tab Four                                      _pages/tab-four/
+    ├── Tab Four — Subtab A         _pages/tab-four/subtab-a/
+    │   ├── Article 4A-1         _pages/tab-four/subtab-a/article-1.md
+    │   ├── Article 4A-2         _pages/tab-four/subtab-a/article-2.md
+    │   └── Article 4A-3         _pages/tab-four/subtab-a/article-3.md
+    └── Tab Four — Subtab B         _pages/tab-four/subtab-b/
+        ├── Article 4B-1         _pages/tab-four/subtab-b/article-1.md
+        ├── Article 4B-2         _pages/tab-four/subtab-b/article-2.md
+        └── Article 4B-3         _pages/tab-four/subtab-b/article-3.md
 ```
 
 ---
@@ -57,9 +57,9 @@ Nav bar
 | `_data/navigation.yml`               | **Master list** of all tabs and subtabs. Controls what appears in the nav bar. Articles are NOT listed here — they are linked only from their subtab's listing page. |
 | `_includes/masthead.html`            | Renders the nav bar HTML. Reads from`navigation.yml`. Rarely needs editing.                                                                                               |
 | `_sass/_masthead.scss`               | CSS styles for the nav bar and hover dropdown. Rarely needs editing.                                                                                                        |
-| `_pages/tab-*.md`                    | Tab landing pages — show subtab cards (linked name + description).                                                                                                         |
-| `_pages/tab-*-subtab-*.md`           | Subtab listing pages — show article cards (linked title + abstract).                                                                                                       |
-| `_pages/tab-*-subtab-*-article-*.md` | Individual article pages — full article content.                                                                                                                           |
+|| `_pages/<tab>/index.md`                    | Tab landing page — shows subtab cards (linked name + description).                                                                                                               |
+|| `_pages/<tab>/<subtab>/index.md`         | Subtab listing page — shows article cards (linked title + abstract).                                                                                                           |
+|| `_pages/<tab>/<subtab>/article-<N>.md`   | Individual article page — full article content.                                                                                                                               |
 
 ---
 
@@ -72,13 +72,13 @@ This is the most common task. Follow these three steps every time.
 Copy any existing article file for the same subtab, e.g.:
 
 ```
-_pages/tab-one-subtab-a-article-3.md  →  copy to  →  _pages/tab-one-subtab-a-article-4.md
+_pages/tab-one/subtab-a/article-3.md  →  copy to  →  _pages/tab-one/subtab-a/article-4.md
 ```
 
-Naming convention: `<tab>-<subtab>-article-<number>.md`
+File location: `<tab>/<subtab>/article-<number>.md` inside `_pages/`
 
-- Use the same tab and subtab prefix as the other articles in that section.
-- Increment the number.
+- Articles for a subtab live in the same folder as the subtab's `index.md`.
+- Increment the number from the highest existing article.
 
 Update these four fields in the front matter at the top of the new file:
 
@@ -93,7 +93,7 @@ Then replace all placeholder body text below the front matter with your real art
 
 ### Step 2 — Add the article to its subtab listing page
 
-Open the subtab's listing page, e.g. `_pages/tab-one-subtab-a.md`.
+Open the subtab's listing page, e.g. `_pages/tab-one/subtab-a/index.md`.
 
 Find the `<!-- ADD MORE ARTICLES HERE -->` comment at the bottom and paste a new article block just above it:
 
@@ -138,11 +138,11 @@ You need to change the name in **two places**:
 
 **1. `_data/navigation.yml`** — update `title:` for the tab or subtab entry.
 
-**2. The page file** — update `title:` in the front matter of the corresponding `_pages/` file.
+**2. The page file** — update `title:` in the front matter of the corresponding `_pages/<tab>/index.md` (or `_pages/<tab>/<subtab>/index.md` for a subtab).
 
 The `url` / `permalink` values do **not** need to change — they are internal routing slugs and are independent of display names.
 
-If you also want to update how the subtab name appears as a card on its parent tab page, open the parent tab's `_pages/tab-*.md` and update the `[Subtab Name]` text in the `## [Subtab Name](/url/)` heading.
+If you also want to update how the subtab name appears as a card on its parent tab page, open the parent tab's `_pages/<tab>/index.md` and update the `[Subtab Name]` text in the `## [Subtab Name](/url/)` heading.
 
 ---
 
@@ -173,9 +173,9 @@ children:
     url: /tab-one/subtab-c/        # ← new URL
 ```
 
-**2.** Create the subtab listing page `_pages/tab-one-subtab-c.md` — copy an existing subtab file and update `title:`, `permalink:`, and the article list.
+**2.** Create the subtab listing page `_pages/<tab>/<subtab>/index.md` — copy an existing subtab folder's `index.md` and update `title:`, `permalink:`, and the article list.
 
-**3.** Add a subtab card to the parent tab's landing page `_pages/tab-one.md`:
+**3.** Add a subtab card to the parent tab's landing page `_pages/<tab>/index.md`:
 
 ```markdown
 ## [Tab One — Subtab C](/tab-one/subtab-c/)
@@ -201,7 +201,7 @@ A brief description of what this subtab covers.
       url: /new-tab/subtab-a/
 ```
 
-**2.** Create the tab landing page `_pages/new-tab.md` — copy an existing tab file and update `title:`, `permalink:`, and the subtab cards.
+**2.** Create the tab landing page `_pages/<new-tab>/index.md` — copy an existing tab folder's `index.md` and update `title:`, `permalink:`, and the subtab cards.
 
 **3.** Create subtab listing pages and article files following the steps above.
 
@@ -210,24 +210,43 @@ A brief description of what this subtab covers.
 ## How to Remove a Tab Entirely
 
 1. Delete or comment out the tab block in `_data/navigation.yml`.
-2. Optionally delete the tab's `_pages/` files (tab page, subtab pages, article pages).
+2. Optionally delete the tab's folder under `_pages/` (tab page, subtab pages, article pages).
 
 ---
 
-## File Naming Convention
+## File Organization Convention
+
+```
+_pages/                              ← all page files
+├── <tab>/
+│   ├── index.md                    ← Tab landing page (one per tab)
+│   │
+│   ├── <subtab>/
+│   │   ├── index.md                ← Subtab listing page
+│   │   ├── article-1.md            ← Article #1
+│   │   ├── article-2.md            ← Article #2
+│   │   └── ...                     ← add more article-N.md files
+│   │
+│   └── <another-subtab>/
+│       └── ...
+│
+└── <another-tab>/
+    └── ...
+```
+
+Each tab gets its own **folder** under `_pages/`. Each subtab gets a **subfolder** with:
+- `index.md` → the subtab listing page
+- `article-1.md`, `article-2.md`, etc. → individual articles
+
+For a tab with **no subtabs** (like Tab Three), articles live directly in the tab's folder:
 
 ```
 _pages/
-  tab-one.md                          ← Tab One landing page
-  tab-one-subtab-a.md                 ← Tab One › Subtab A listing
-  tab-one-subtab-a-article-1.md       ← Tab One › Subtab A › Article 1
-  tab-one-subtab-a-article-2.md       ← Tab One › Subtab A › Article 2
-  tab-one-subtab-b.md                 ← Tab One › Subtab B listing
-  tab-one-subtab-b-article-1.md       ← Tab One › Subtab B › Article 1
-  ...
-  tab-three.md                        ← Tab Three (no subtabs) — articles listed directly
-  tab-three-article-1.md              ← Tab Three › Article 1
-  ...
+└── tab-three/
+    ├── index.md                    ← Tab landing — articles listed directly here
+    ├── article-1.md                ← Article #1
+    ├── article-2.md                ← Article #2
+    └── article-3.md                ← Article #3
 ```
 
 Permalink convention to match:
@@ -245,25 +264,25 @@ Permalink convention to match:
 
 **Add a new article to a subtab:**
 
-- [ ] Create `_pages/<tab>-<subtab>-article-<N>.md` — set `title`, `permalink`, `date`, `excerpt`, write body
-- [ ] Open `_pages/<tab>-<subtab>.md` — add `### [Title](/url/)` + abstract block before the ADD MORE comment
+- [ ] Create `_pages/<tab>/<subtab>/article-<N>.md` — set `title`, `permalink`, `date`, `excerpt`, write body
+- [ ] Open `_pages/<tab>/<subtab>/index.md` — add `### [Title](/url/)` + abstract block before the ADD MORE comment
 
 **Rename a tab:**
 
 - [ ] `_data/navigation.yml` → update `title:`
-- [ ] `_pages/<tab>.md` → update `title:` in front matter
+- [ ] `_pages/<tab>/index.md` → update `title:` in front matter
 
 **Rename a subtab:**
 
 - [ ] `_data/navigation.yml` → update `title:` under `children:`
-- [ ] `_pages/<tab>-<subtab>.md` → update `title:` in front matter
-- [ ] `_pages/<tab>.md` → update the `[Subtab Name]` text in the subtab card heading
+- [ ] `_pages/<tab>/<subtab>/index.md` → update `title:` in front matter
+- [ ] `_pages/<tab>/index.md` → update the `[Subtab Name]` text in the subtab card heading
 
 **Add a subtab:**
 
 - [ ] `_data/navigation.yml` → add entry under `children:`
-- [ ] Create `_pages/<tab>-<subtab>.md`
-- [ ] `_pages/<tab>.md` → add subtab card block
+- [ ] Create `_pages/<tab>/<subtab>/index.md`
+- [ ] `_pages/<tab>/index.md` → add subtab card block
 - [ ] Create article files for the new subtab
 
 **Remove subtabs from a tab (no dropdown):**
@@ -273,7 +292,7 @@ Permalink convention to match:
 **Add a new tab:**
 
 - [ ] `_data/navigation.yml` → add tab block
-- [ ] Create `_pages/<tab>.md`
+- [ ] Create `_pages/<tab>/index.md`
 - [ ] Create subtab and article files as needed
 
 ---
@@ -349,4 +368,4 @@ bundle exec jekyll liveserve
 
 ---
 
-*Last updated: structure has 4 tabs, 7 subtabs, 24 article pages (21 under subtabs + 3 directly under Tab Three).*
+*Last updated: pages reorganized into tab/subtab folder structure with index.md naming.*

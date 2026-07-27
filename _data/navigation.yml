@@ -34,6 +34,21 @@
 # TO HIDE SUBTABS (no dropdown for a tab):
 #   Simply delete or leave out the "children:" block for that tab.
 #
+# ⚠️  TO CHANGE THE URL OF A TAB OR SUBTAB (do NOT skip step 2):
+#   1. Update the "url:" value below for the tab/subtab you want to change.
+#   2. Open the corresponding page file and update its "permalink:" to match
+#      the new URL you set in step 1. The page files are organized as:
+#
+#        Tab landing:        _pages/<tab>/index.md
+#        Subtab listing:     _pages/<tab>/<subtab>/index.md
+#        Article page:       _pages/<tab>/<subtab>/article-<N>.md
+#
+#      (e.g. if you change a tab's url: from /tab-one/ to /research/,
+#       you must also change permalink: in _pages/tab-one/index.md to /research/)
+#
+#   The "url:" here and the "permalink:" in the page file MUST match,
+#   or the link will break (404 error).
+#
 # =============================================================================
 
 main:
@@ -42,36 +57,36 @@ main:
   # TAB 1 — Change "Tab One" to your desired tab name (e.g. "Research")
   # ---------------------------------------------------------------------------
   - title: "Research Skill Column"             # ← CHANGE THIS: tab label shown in nav bar
-    url: /tab-one/               # ← CHANGE THIS: URL for the tab's main page
+    url: /Research/                # ← CHANGE THIS: URL for the tab's main page
 
     # Subtabs shown on hover — delete this "children" block to hide the dropdown
     children:
       - title: "Data Collection"    # ← CHANGE THIS: first subtab label
-        url: /tab-one/subtab-a/        # ← CHANGE THIS: first subtab URL
+        url: /Research/Data-Collection/        # ← CHANGE THIS: first subtab URL
 
       - title: "Data Visualization"    # ← CHANGE THIS: second subtab label
-        url: /tab-one/subtab-b/        # ← CHANGE THIS: second subtab URL
+        url: /Research/Data-Visualization/        # ← CHANGE THIS: second subtab URL
 
       # To add a third subtab, uncomment the lines below:
       - title: "Analytics Methods"
-        url: /tab-one/subtab-c/
+        url: /Research/Analytics-Methods/
 
   # ---------------------------------------------------------------------------
   # TAB 2 — Change "Tab Two" to your desired tab name (e.g. "Teaching")
   # ---------------------------------------------------------------------------
   - title: "Essayistic Reflection Column"             # ← CHANGE THIS: tab label shown in nav bar
-    url: /tab-two/               # ← CHANGE THIS: URL for the tab's main page
+    url: /Essay/               # ← CHANGE THIS: URL for the tab's main page
 
     # Subtabs shown on hover — delete this "children" block to hide the dropdown
     children:
       - title: "Economics & Behaviorial Studies"    # ← CHANGE THIS: first subtab label
-        url: /tab-two/subtab-a/        # ← CHANGE THIS: first subtab URL
+        url: /Essay/Economics/        # ← CHANGE THIS: first subtab URL
 
-      - title: "Personal & Professional Development"    # ← CHANGE THIS: second subtab label
-        url: /tab-two/subtab-b/        # ← CHANGE THIS: second subtab URL
+      - title: "Professional & Personal Development"    # ← CHANGE THIS: second subtab label
+        url: /Essay/Development/        # ← CHANGE THIS: second subtab URL
 
       # - title: "Tab Two — Subtab C"    # ← CHANGE THIS: third subtab label
-      #   url: /tab-two/subtab-c/        # ← CHANGE THIS: third subtab URL
+      #   url: /Essay/subtab-c/        # ← CHANGE THIS: third subtab URL
 
   # # ---------------------------------------------------------------------------
   # # TAB 3 — HIDDEN (commented out = not rendered in nav bar)
