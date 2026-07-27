@@ -46,15 +46,15 @@ main:
 
     # Subtabs shown on hover — delete this "children" block to hide the dropdown
     children:
-      - title: "Tab One — Subtab A"    # ← CHANGE THIS: first subtab label
+      - title: "Data Collection"    # ← CHANGE THIS: first subtab label
         url: /tab-one/subtab-a/        # ← CHANGE THIS: first subtab URL
 
-      - title: "Tab One — Subtab B"    # ← CHANGE THIS: second subtab label
+      - title: "Data Visualization"    # ← CHANGE THIS: second subtab label
         url: /tab-one/subtab-b/        # ← CHANGE THIS: second subtab URL
 
       # To add a third subtab, uncomment the lines below:
-      # - title: "Tab One — Subtab C"
-      #   url: /tab-one/subtab-c/
+      - title: "Analytics Methods"
+        url: /tab-one/subtab-c/
 
   # ---------------------------------------------------------------------------
   # TAB 2 — Change "Tab Two" to your desired tab name (e.g. "Teaching")
@@ -64,14 +64,14 @@ main:
 
     # Subtabs shown on hover — delete this "children" block to hide the dropdown
     children:
-      - title: "Tab Two — Subtab A"    # ← CHANGE THIS: first subtab label
+      - title: "Economics & Behaviorial Studies"    # ← CHANGE THIS: first subtab label
         url: /tab-two/subtab-a/        # ← CHANGE THIS: first subtab URL
 
-      - title: "Tab Two — Subtab B"    # ← CHANGE THIS: second subtab label
+      - title: "Personal & Professional Development"    # ← CHANGE THIS: second subtab label
         url: /tab-two/subtab-b/        # ← CHANGE THIS: second subtab URL
 
-      - title: "Tab Two — Subtab C"    # ← CHANGE THIS: third subtab label
-        url: /tab-two/subtab-c/        # ← CHANGE THIS: third subtab URL
+      # - title: "Tab Two — Subtab C"    # ← CHANGE THIS: third subtab label
+      #   url: /tab-two/subtab-c/        # ← CHANGE THIS: third subtab URL
 
   # # ---------------------------------------------------------------------------
   # # TAB 3 — HIDDEN (commented out = not rendered in nav bar)

@@ -51,3 +51,84 @@
     font-weight: 700;
   }
 }
+
+
+
+/* ==========================================================================
+   DROPDOWN SUBTAB MENU
+   Triggered when a .masthead__menu-item has the class "has-dropdown".
+   The .dropdown-menu is hidden by default and revealed on :hover.
+   ========================================================================== */
+
+/*
+  .has-dropdown — wrapper for a tab that has subtabs.
+  position: relative lets the absolute dropdown anchor to this element.
+*/
+.has-dropdown {
+  position: relative; /* anchor point for the dropdown below */
+
+  /*
+    Hide the dropdown by default.
+    Uses visibility + opacity instead of display:none so CSS transitions work.
+  */
+  .dropdown-menu {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;              /* not clickable while hidden */
+
+    /* Position the dropdown directly below the parent tab */
+    position: absolute;
+    top: 100%;                         /* flush below the tab */
+    left: 0;
+    margin: 0;
+    padding: 5px 0;
+    min-width: 180px;                  /* minimum dropdown width — adjust freely */
+    list-style: none;
+    background: #fff;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    box-shadow: 0 4px 12px rgba(#000, 0.12);
+    z-index: 100;                      /* sit above page content */
+
+    /* Smooth fade-in transition */
+    transition: opacity 0.18s ease, visibility 0.18s ease;
+
+    /* Each subtab row */
+    li {
+      display: block;
+      border-bottom: 1px solid $light-gray;
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+
+    /* Subtab link styling */
+    a {
+      display: block;
+      margin: 0;
+      padding: 9px 18px;
+      white-space: nowrap;
+      font-size: $type-size-6;         /* slightly smaller than main tabs */
+      color: $masthead-link-color;
+      text-decoration: none;
+
+      &:hover {
+        color: $masthead-link-color-hover;
+        background: mix(#fff, $primary-color, 80%); /* subtle hover tint */
+      }
+    }
+  }
+
+  /*
+    Show the dropdown when the parent tab is hovered.
+    Also covers keyboard focus-within so it works without a mouse.
+  */
+  &:hover .dropdown-menu,
+  &:focus-within .dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+/* /DROPDOWN SUBTAB MENU */

@@ -6,17 +6,69 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+
+          <!-- Site title / home link — always shown on the left -->
+          <li class="masthead__menu-item masthead__menu-item--lg">
+            <a href="{{ base_path }}/">{{ site.title }}</a>
+          </li>
+
+          <!-- ============================================================
+               TOP-LEVEL TABS
+               Each tab comes from site.data.navigation.main (navigation.yml).
+               If a tab has "children", a dropdown appears on hover.
+               If no "children" key, clicking the tab goes straight to its URL.
+               ============================================================ -->
           {% for link in site.data.navigation.main %}
+
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
-              {% else %}
+            {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+
+            {% if link.children %}
+              <!-- --------------------------------------------------------
+                   Tab WITH subtabs → wrapped in .has-dropdown for CSS hook
+                   The <a> on the tab itself still navigates to link.url
+                   when clicked. The dropdown only appears on hover.
+                   -------------------------------------------------------- -->
+              <li class="masthead__menu-item has-dropdown">
+                <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+
+                <!-- Dropdown subtab list — shown via CSS on :hover -->
+                <ul class="dropdown-menu">
+                  {% for child in link.children %}
+                    {% if child.url contains 'http' %}
+                      {% assign child_domain = '' %}
+                    {% else %}
+                      {% assign child_domain = base_path %}
+                    {% endif %}
+                    <li>
+                      <a href="{{ child_domain }}{{ child.url }}">{{ child.title }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+                <!-- /dropdown subtab list -->
+
+              </li>
+
+            {% else %}
+              <!-- --------------------------------------------------------
+                   Tab WITHOUT subtabs → plain link, no dropdown
+                   -------------------------------------------------------- -->
+              <li class="masthead__menu-item">
+                <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+              </li>
+
+            {% endif %}
           {% endfor %}
-        </ul>
+          <!-- /TOP-LEVEL TABS -->
+
+        </ul><!-- /visible-links -->
+
+        <!-- Hidden links (overflow items shown by greedy-nav JS on small screens) -->
         <ul class="hidden-links hidden"></ul>
+
       </nav>
     </div>
   </div>

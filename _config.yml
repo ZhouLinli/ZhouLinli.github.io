@@ -4,10 +4,16 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
+#
+# How to restart the server process:
+#   1. In the terminal where `jekyll serve` is running, press Ctrl+C to stop it.
+#   2. Run `jekyll serve` (or `bundle exec jekyll serve`) again to restart.
+#   Alternatively, if running in the background, find the PID via `ps aux | grep jekyll`,
+#   kill it with `kill <PID>`, then start the server again.
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Linli Zhou, PhD, Data Analyst - Institutional Research" #"Linli Zhou / HomePage" when having multiple page in the navigation_bar in _data folder in this repo
+title                    : "Linli Zhou, PhD | Data Analyst" #"Linli Zhou / HomePage" when having multiple page in the navigation_bar in _data folder in this repo
 title_separator          : "-"
 name                     : &name "Linli Zhou, PhD"
 description              : &description "personal description"
@@ -81,10 +87,32 @@ analytics:
 # Site Author
 author:
   name             : "Linli Zhou, PhD"
-  avatar           : "profile.png"
-  bio              : "Researcher"
+  avatar           : "headshot_side.jpeg" #"profile.png"
+  #
+  # ─────────────────────────────────────────────────────────────────
+  # AVATAR SHAPE (oval ↔ rectangle)
+  # ─────────────────────────────────────────────────────────────────
+  # The avatar currently displays as an OVAL (circular crop).
+  # This is controlled by CSS in _sass/_sidebar.scss at:
+  #
+  #   .author__avatar img {
+  #     border-radius: 50%;   ← change this value
+  #   }
+  #
+  #   • border-radius: 50%    → OVAL (current, default by Minimal Mistakes)
+  #   • border-radius: 0      → SQUARE (sharp corners, no rounding)
+  #   • border-radius: 4px    → SLIGHTLY ROUNDED RECTANGLE (4px corners)
+  #   • border-radius: 12px   → PILL-SHAPED RECTANGLE (12px corners)
+  #   • border-radius: 0 12px 12px 0  → ASYMMETRIC (e.g. round only right side)
+  #
+  # Edit _sass/_sidebar.scss (line ~87), then restart jekyll serve.
+  # The avatar image itself should be a decent-resolution JPEG/PNG
+  # (e.g. 350×350 px minimum). If it looks stretched, also adjust
+  # max-width on line ~86 of the same file.
+  # ─────────────────────────────────────────────────────────────────
+  bio              : "Institutional Researcher"
   location         : "Santa Clara, CA" #| Seattle, WA
-  employer         : "Lasell University (Newton, MA)"
+  employer         : "Lasell University (MA)"
   email            : "linli.zhou@ucla.edu"
   linkedin         : "linlizhou/" #https://www.linkedin.com/in/ not needed
   googlescholar    : "https://tinyurl.com/LinliScholar"

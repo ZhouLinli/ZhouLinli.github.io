@@ -84,7 +84,7 @@
 
   img {
     max-width: 175px;
-    border-radius: 50%;
+    border-radius: 12px;// 50%;  // ← OVAL shape. Change to 0 for rectangle, 4px for rounded corners
 
     @include breakpoint($large) {
       padding: 5px;
