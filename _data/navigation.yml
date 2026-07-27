@@ -1,19 +1,124 @@
-# main links links
+# =============================================================================
+# MAIN NAVIGATION - Controls the top navigation bar tabs
+# =============================================================================
+#
+# ⚠️  CRITICAL: After editing this file
+# ----------------------------------------
+# Changes to navigation.yml ONLY take effect on the LIVE site once you:
+#   1. git add _data/navigation.yml
+#   2. git commit -m "update navigation"
+#   3. git push
+#
+# The local `jekyll serve` preview auto-reflects edits (check localhost:4000).
+# GitHub Pages does NOT auto-deploy uncommitted changes.
+#
+# =============================================================================
+# HOW TO USE:
+#   - Each top-level item under "main:" is a TAB in the navigation bar.
+#   - "title" is the tab label shown to visitors. Change it to your desired name.
+#   - "url" is the page that loads when someone clicks the tab directly.
+#   - "children" (optional) defines SUBTABS that appear when hovering the tab.
+#     Remove or leave out the "children" key entirely if you want NO subtabs.
+#
+# TO ADD A NEW TAB:
+#   Copy one of the tab blocks below and add it to the list.
+#
+# TO REMOVE / HIDE A TAB (make it disappear from the nav bar):
+#   Comment out the entire block for that tab using "#" at the START of every line.
+#   The YAML parser ignores commented lines, so the tab won't render.
+#   (Do NOT just add "#" mid-line — it must be the first character of each line.)
+#
+# TO RE-ENABLE A HIDDEN TAB:
+#   Un-comment every line of its block (remove the leading "#").
+#
+# TO HIDE SUBTABS (no dropdown for a tab):
+#   Simply delete or leave out the "children:" block for that tab.
+#
+# =============================================================================
+
 main:
-#  - title: "Publications"
-#    url: /publications/
 
- # - title: "Presentations"
-#    url: /presentations/    
+  # ---------------------------------------------------------------------------
+  # TAB 1 — Change "Tab One" to your desired tab name (e.g. "Research")
+  # ---------------------------------------------------------------------------
+  - title: "Research Skill Column"             # ← CHANGE THIS: tab label shown in nav bar
+    url: /tab-one/               # ← CHANGE THIS: URL for the tab's main page
 
-#  - title: "Teaching"
-#    url: /teaching/    
-    
- # - title: "Portfolio"
-  #  url: /portfolio/
-    
-#  - title: "CV"
-#    url: /cv/
-    
-#  - title: "Guide"
- #   url: /markdown/
+    # Subtabs shown on hover — delete this "children" block to hide the dropdown
+    children:
+      - title: "Tab One — Subtab A"    # ← CHANGE THIS: first subtab label
+        url: /tab-one/subtab-a/        # ← CHANGE THIS: first subtab URL
+
+      - title: "Tab One — Subtab B"    # ← CHANGE THIS: second subtab label
+        url: /tab-one/subtab-b/        # ← CHANGE THIS: second subtab URL
+
+      # To add a third subtab, uncomment the lines below:
+      # - title: "Tab One — Subtab C"
+      #   url: /tab-one/subtab-c/
+
+  # ---------------------------------------------------------------------------
+  # TAB 2 — Change "Tab Two" to your desired tab name (e.g. "Teaching")
+  # ---------------------------------------------------------------------------
+  - title: "Essayistic Reflection Column"             # ← CHANGE THIS: tab label shown in nav bar
+    url: /tab-two/               # ← CHANGE THIS: URL for the tab's main page
+
+    # Subtabs shown on hover — delete this "children" block to hide the dropdown
+    children:
+      - title: "Tab Two — Subtab A"    # ← CHANGE THIS: first subtab label
+        url: /tab-two/subtab-a/        # ← CHANGE THIS: first subtab URL
+
+      - title: "Tab Two — Subtab B"    # ← CHANGE THIS: second subtab label
+        url: /tab-two/subtab-b/        # ← CHANGE THIS: second subtab URL
+
+      - title: "Tab Two — Subtab C"    # ← CHANGE THIS: third subtab label
+        url: /tab-two/subtab-c/        # ← CHANGE THIS: third subtab URL
+
+  # # ---------------------------------------------------------------------------
+  # # TAB 3 — HIDDEN (commented out = not rendered in nav bar)
+  # #          Change "Tab Three" to your desired tab name (e.g. "Portfolio")
+  # #          This tab has NO subtabs — the dropdown is intentionally omitted.
+  # # ---------------------------------------------------------------------------
+  # # To SHOW this tab again → remove the "#" from every line below.
+  # # Then commit & push to deploy.
+  # - title: "Tab Three"           # ← CHANGE THIS: tab label shown in nav bar
+  #   url: /tab-three/             # ← CHANGE THIS: URL for the tab's main page
+  #
+  #   # NO subtabs for this tab. To add subtabs, uncomment and fill in below:
+  #   # children:
+  #   #   - title: "Tab Three — Subtab A"
+  #   #     url: /tab-three/subtab-a/
+  #   #   - title: "Tab Three — Subtab B"
+  #   #     url: /tab-three/subtab-b/
+
+  # # ---------------------------------------------------------------------------
+  # # TAB 4 — HIDDEN (commented out = not rendered in nav bar)
+  # #          Change "Tab Four" to your desired tab name (e.g. "CV")
+  # # ---------------------------------------------------------------------------
+  # # To SHOW this tab again → remove the "#" from every line below.
+  # # Then commit & push to deploy.
+  # - title: "Tab Four"            # ← CHANGE THIS: tab label shown in nav bar
+  #   url: /tab-four/              # ← CHANGE THIS: URL for the tab's main page
+  #
+  #   # Subtabs shown on hover — delete this "children" block to hide the dropdown
+  #   children:
+  #     - title: "Tab Four — Subtab A"   # ← CHANGE THIS: first subtab label
+  #       url: /tab-four/subtab-a/       # ← CHANGE THIS: first subtab URL
+  #
+  #     - title: "Tab Four — Subtab B"   # ← CHANGE THIS: second subtab label
+  #       url: /tab-four/subtab-b/       # ← CHANGE THIS: second subtab URL
+  #
+  #     # To add a third subtab, uncomment below:
+  #     # - title: "Tab Four — Subtab C"
+  #     #   url: /tab-four/subtab-c/
+
+  # ---------------------------------------------------------------------------
+  # To add more tabs, copy the block below and paste it here:
+  #
+  # - title: "New Tab"
+  #   url: /new-tab/
+  #   children:                        # remove "children" block if no subtabs
+  #     - title: "New Tab — Subtab A"
+  #       url: /new-tab/subtab-a/
+  #     - title: "New Tab — Subtab B"
+  #       url: /new-tab/subtab-b/
+  # ---------------------------------------------------------------------------
