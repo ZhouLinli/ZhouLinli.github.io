@@ -52,14 +52,14 @@ Nav bar
 
 ## Files Overview
 
-| File                                   | Purpose                                                                                                                                                                     |
-| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `_data/navigation.yml`               | **Master list** of all tabs and subtabs. Controls what appears in the nav bar. Articles are NOT listed here — they are linked only from their subtab's listing page. |
-| `_includes/masthead.html`            | Renders the nav bar HTML. Reads from`navigation.yml`. Rarely needs editing.                                                                                               |
-| `_sass/_masthead.scss`               | CSS styles for the nav bar and hover dropdown. Rarely needs editing.                                                                                                        |
-|| `_pages/<tab>/index.md`                    | Tab landing page — shows subtab cards (linked name + description).                                                                                                               |
-|| `_pages/<tab>/<subtab>/index.md`         | Subtab listing page — shows article cards (linked title + abstract).                                                                                                           |
-|| `_pages/<tab>/<subtab>/article-<N>.md`   | Individual article page — full article content.                                                                                                                               |
+| File                        | Purpose                                                                                                                                                                     |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `_data/navigation.yml`    | **Master list** of all tabs and subtabs. Controls what appears in the nav bar. Articles are NOT listed here — they are linked only from their subtab's listing page. |
+| `_includes/masthead.html` | Renders the nav bar HTML. Reads from`navigation.yml`. Rarely needs editing.                                                                                               |
+| `_sass/_masthead.scss`    | CSS styles for the nav bar and hover dropdown. Rarely needs editing.                                                                                                        |
+|                             | `_pages/<tab>/index.md`                                                                                                                                                   |
+|                             | `_pages/<tab>/<subtab>/index.md`                                                                                                                                          |
+|                             | `_pages/<tab>/<subtab>/article-<N>.md`                                                                                                                                    |
 
 ---
 
@@ -235,6 +235,7 @@ _pages/                              ← all page files
 ```
 
 Each tab gets its own **folder** under `_pages/`. Each subtab gets a **subfolder** with:
+
 - `index.md` → the subtab listing page
 - `article-1.md`, `article-2.md`, etc. → individual articles
 

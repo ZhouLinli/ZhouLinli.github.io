@@ -4,7 +4,7 @@
 # =============================================================================
 layout: single
 title: "Placeholder Article Title 2A-2"   # ← CHANGE THIS: full article title
-permalink: /tab-two/subtab-a/article-2/   # ← CHANGE THIS: unique URL slug
+permalink: /Essay/Economics/article-2/   # ← CHANGE THIS: unique URL slug
 date: 2024-02-01
 author_profile: true
 excerpt: "A one-sentence summary of this article for search engines and previews."
@@ -24,4 +24,4 @@ Summarize your article here.
 
 ---
 
-← Back to [Tab Two — Subtab A](/tab-two/subtab-a/)
+← Back to [Economics & Behavioral Studies](/Essay/Economics/)

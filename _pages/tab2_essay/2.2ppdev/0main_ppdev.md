@@ -9,7 +9,7 @@
 #
 # TO ADD A NEW ARTICLE:
 #   1. Create a new file in _pages/:  tab-two-subtab-b-article-4.md
-#   2. Set its permalink to /tab-two/subtab-b/article-4/
+#   2. Set its permalink to /Essay/Development/article-4/
 #   3. Copy an article block below, paste at the bottom, update link + abstract.
 # =============================================================================
 layout: single
@@ -23,7 +23,7 @@ author_profile: true
 
 <!-- ---------------------------------------------------------------- ARTICLE 1 -->
 
-### [Placeholder Article Title 2B-1](/tab-two/subtab-b/article-1/)
+### [Placeholder Article Title 2B-1](/Essay/Development/article-1/)
 
 This is a placeholder abstract for Article 2B-1. Replace this paragraph with a concise 2–3 sentence summary that tells readers what the article is about and why it is worth reading.
 
@@ -31,7 +31,7 @@ This is a placeholder abstract for Article 2B-1. Replace this paragraph with a c
 
 <!-- ---------------------------------------------------------------- ARTICLE 2 -->
 
-### [Placeholder Article Title 2B-2](/tab-two/subtab-b/article-2/)
+### [Placeholder Article Title 2B-2](/Essay/Development/article-2/)
 
 This is a placeholder abstract for Article 2B-2. Replace this paragraph with a concise 2–3 sentence summary that tells readers what the article is about and why it is worth reading.
 
@@ -39,7 +39,7 @@ This is a placeholder abstract for Article 2B-2. Replace this paragraph with a c
 
 <!-- ---------------------------------------------------------------- ARTICLE 3 -->
 
-### [Placeholder Article Title 2B-3](/tab-two/subtab-b/article-3/)
+### [Placeholder Article Title 2B-3](/Essay/Development/article-3/)
 
 This is a placeholder abstract for Article 2B-3. Replace this paragraph with a concise 2–3 sentence summary that tells readers what the article is about and why it is worth reading.
 
@@ -47,4 +47,4 @@ This is a placeholder abstract for Article 2B-3. Replace this paragraph with a c
 
 <!-- ADD MORE ARTICLES HERE — copy a block above and update the link + abstract -->
 
-← Back to [Tab Two](/tab-two/)
+← Back to [Essayistic Synthesis Column](/Essay/)

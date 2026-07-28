@@ -1,3 +1,4 @@
+
 ---
 # =============================================================================
 # TAB ONE — Subtab B  (listing page)
@@ -9,7 +10,7 @@
 #
 # TO ADD A NEW ARTICLE:
 #   1. Create a new file in _pages/:  tab-one-subtab-b-article-4.md
-#   2. Set its permalink to /tab-one/subtab-b/article-4/
+#   2. Set its permalink to /Research/Data-Visualization/article-4/
 #   3. Copy an article block below, paste at the bottom, update link + abstract.
 # =============================================================================
 layout: single
@@ -23,7 +24,7 @@ author_profile: true
 
 <!-- ---------------------------------------------------------------- ARTICLE 1 -->
 
-### [Placeholder Article Title 1B-1](/tab-one/subtab-b/article-1/)
+### [Placeholder Article Title 1B-1](/Research/Data-Visualization/article-1/)
 
 This is a placeholder abstract for Article 1B-1. Replace this paragraph with a concise 2–3 sentence summary that tells readers what the article is about and why it is worth reading.
 
@@ -31,7 +32,7 @@ This is a placeholder abstract for Article 1B-1. Replace this paragraph with a c
 
 <!-- ---------------------------------------------------------------- ARTICLE 2 -->
 
-### [Placeholder Article Title 1B-2](/tab-one/subtab-b/article-2/)
+### [Placeholder Article Title 1B-2](/Research/Data-Visualization/article-2/)
 
 This is a placeholder abstract for Article 1B-2. Replace this paragraph with a concise 2–3 sentence summary that tells readers what the article is about and why it is worth reading.
 
@@ -39,7 +40,7 @@ This is a placeholder abstract for Article 1B-2. Replace this paragraph with a c
 
 <!-- ---------------------------------------------------------------- ARTICLE 3 -->
 
-### [Placeholder Article Title 1B-3](/tab-one/subtab-b/article-3/)
+### [Placeholder Article Title 1B-3](/Research/Data-Visualization/article-3/)
 
 This is a placeholder abstract for Article 1B-3. Replace this paragraph with a concise 2–3 sentence summary that tells readers what the article is about and why it is worth reading.
 
@@ -47,4 +48,4 @@ This is a placeholder abstract for Article 1B-3. Replace this paragraph with a c
 
 <!-- ADD MORE ARTICLES HERE — copy a block above and update the link + abstract -->
 
-← Back to [Tab One](/tab-one/)
+← Back to [Research Skill Column](/Research/)

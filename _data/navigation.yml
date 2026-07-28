@@ -74,7 +74,7 @@ main:
   # ---------------------------------------------------------------------------
   # TAB 2 — Change "Tab Two" to your desired tab name (e.g. "Teaching")
   # ---------------------------------------------------------------------------
-  - title: "Essayistic Reflection Column"             # ← CHANGE THIS: tab label shown in nav bar
+  - title: "Essayistic Synthesis Column"             # ← CHANGE THIS: tab label shown in nav bar
     url: /Essay/               # ← CHANGE THIS: URL for the tab's main page
 
     # Subtabs shown on hover — delete this "children" block to hide the dropdown

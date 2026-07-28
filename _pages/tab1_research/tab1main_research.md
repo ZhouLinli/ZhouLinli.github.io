@@ -1,55 +1,57 @@
 ---
 # =============================================================================
-# TAB ONE — Main landing page
-# Loaded when a visitor clicks the "Tab One" tab directly.
+# RESEARCH SKILL COLUMN — Main landing page
+# Loaded when a visitor clicks the "Research Skill Column" tab.
 #
 # WHAT TO CHANGE:
 #   - title:     The heading shown at the top of the page
 #   - permalink: Must match the "url" set for this tab in _data/navigation.yml
 #
 # TO ADD A NEW SUBTAB CARD:
-#   1. Create the subtab page in _pages/ (e.g. tab-one-subtab-c.md)
+#   1. Create the subtab page at _pages/tab1_research/<subtab-folder>/subtab<N>main_<name>.md
 #   2. Add the subtab to _data/navigation.yml under Tab One > children
 #   3. Copy a subtab card block below, paste at the bottom of the list,
 #      update the [Subtab Name](/url/) link and the description paragraph.
 # =============================================================================
 layout: single
-title: "Tab One"               # ← CHANGE THIS: page heading
-permalink: /Research/           # ← keep in sync with navigation.yml url for Tab One
+title: "Research Skill Column"   # ← CHANGE THIS: page heading
+permalink: /Research/            # ← keep in sync with navigation.yml url for Tab One
 author_profile: true
 ---
 <!-- =========================================================================
      TAB LANDING PAGE
      Each subtab is shown as a card: a linked subtab name + a short description.
-     To add a subtab card: copy one block below, paste it, update the link and
-     description, then create the matching _pages/ file and navigation.yml entry.
-     To remove a subtab card: delete its block (the page file can stay or go).
+     Descriptions should concisely introduce the subtab's focus — what a reader
+     will find there and why it matters.
      ========================================================================= -->
 
 <!-- ----------------------------------------------------------------
-     SUBTAB CARD 1
-     Name:        change the text inside [...]
-     URL:         change the path inside (...) — must match the subtab's permalink
-     Description: replace the paragraph below with a short 1–2 sentence summary
+     SUBTAB CARD 1 — Data Collection
      ---------------------------------------------------------------- -->
 
-## [Tab One — Subtab A](/tab-one/subtab-a/)
+## [Data Collection](/Research/Data-Collection/)
 
-A brief description of what Subtab A covers. Replace this with 1–2 sentences that help visitors decide whether to click in.
+Foundational methods for gathering empirical evidence: survey design and mixed-methods research, SQL and database management for institutional data, and web scraping techniques. Covers the data pipeline from raw collection to clean, analysis-ready datasets.
 
 ---
 
 <!-- ----------------------------------------------------------------
-     SUBTAB CARD 2
+     SUBTAB CARD 2 — Data Visualization
      ---------------------------------------------------------------- -->
 
-## [Tab One — Subtab B](/tab-one/subtab-b/)
+## [Data Visualization](/Research/Data-Visualization/)
 
-A brief description of what Subtab B covers. Replace this with 1–2 sentences that help visitors decide whether to click in.
+Transforming complex datasets into clear, compelling visuals. Showcases dashboards, infographics, and interactive reports built with R, Python, and PowerBI/Tableau. Design principles for making institutional insights accessible to diverse stakeholders.
 
-## [Tab Two — Subtab C](/tab-two/subtab-c/)
+---
 
-A brief description of what Subtab C covers. Replace this with 1–2 sentences that help visitors decide whether to click in.
+<!-- ----------------------------------------------------------------
+     SUBTAB CARD 3 — Analytics Methods
+     ---------------------------------------------------------------- -->
+
+## [Analytics Methods](/Research/Analytics-Methods/)
+
+Statistical modeling and predictive analytics for higher education: logistic regression, survival analysis, clustering, and program evaluation techniques. Covers AI and LLM applications in higher education, and the analytical methods used in retention studies, enrollment forecasting, and impact assessment.
 
 ---
 
@@ -57,9 +59,9 @@ A brief description of what Subtab C covers. Replace this with 1–2 sentences t
      ADD MORE SUBTAB CARDS HERE
      Copy the block below, remove the comment markers, and fill it in:
 
-## [New Subtab Name](/tab-one/new-subtab/)
+## [New Subtab Name](/Research/new-subtab-slug/)
 
-A brief description of what this subtab covers.
+A 1–3 sentence description of what this subtab covers and why readers should explore it.
 
 ---
      ---------------------------------------------------------------- -->

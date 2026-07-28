@@ -4,7 +4,7 @@
 # =============================================================================
 layout: single
 title: "Placeholder Article Title 2C-2"   # ← CHANGE THIS: full article title
-permalink: /tab-two/subtab-c/article-2/   # ← CHANGE THIS: unique URL slug
+permalink: /Research/Analytics-Methods/article-2/   # ← CHANGE THIS: unique URL slug
 date: 2024-02-01
 author_profile: true
 excerpt: "A one-sentence summary of this article for search engines and previews."
@@ -24,4 +24,4 @@ Summarize your article here.
 
 ---
 
-← Back to [Tab Two — Subtab C](/tab-two/subtab-c/)
+← Back to [Analytics Methods](/Research/Analytics-Methods/)

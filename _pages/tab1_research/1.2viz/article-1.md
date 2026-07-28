@@ -15,7 +15,7 @@
 # =============================================================================
 layout: single
 title: "Placeholder Article Title 1B-1"   # ← CHANGE THIS: full article title
-permalink: /tab-one/subtab-b/article-1/   # ← CHANGE THIS: unique URL slug
+permalink: /Research/Data-Visualization/article-1/   # ← CHANGE THIS: unique URL slug
 date: 2024-01-01
 author_profile: true
 excerpt: "A one-sentence summary of this article for search engines and previews."
@@ -41,4 +41,4 @@ Summarize your article here.
 
 ---
 
-← Back to [Tab One — Subtab B](/tab-one/subtab-b/)
+← Back to [Data Visualization](/Research/Data-Visualization/)

@@ -9,7 +9,7 @@
 #
 # TO ADD A NEW ARTICLE:
 #   1. Create a new file in the current folder (subtab-a):  article-4.md
-#   2. Set its permalink to /tab-one/subtab-a/article-4/
+#   2. Set its permalink to /Research/Data-Collection/article-4/
 #   3. Copy the article block below, paste it here, and update:
 #      - The [Title](/url/) link
 #      - The abstract paragraph text
@@ -35,29 +35,9 @@ author_profile: true
      Abstract: replace the paragraph below the title line
      ---------------------------------------------------------------- -->
 
-### [Placeholder Article Title 1A-1](/tab-one/subtab-a/article-1/)
+### [Building a LinkedIn Data Pipeline for Alumni Outcomes](/Research/Data-Collection/linkedin-alumni-pipeline/)
 
-This is a placeholder abstract for Article 1A-1. Replace this paragraph with a concise 2–3 sentence summary that tells readers what the article is about and why it is worth reading. Keep it informative but brief.
-
----
-
-<!-- ----------------------------------------------------------------
-     ARTICLE 2
-     ---------------------------------------------------------------- -->
-
-### [Placeholder Article Title 1A-2](/tab-one/subtab-a/article-2/)
-
-This is a placeholder abstract for Article 1A-2. Replace this paragraph with a concise 2–3 sentence summary that tells readers what the article is about and why it is worth reading. Keep it informative but brief.
-
----
-
-<!-- ----------------------------------------------------------------
-     ARTICLE 3
-     ---------------------------------------------------------------- -->
-
-### [Placeholder Article Title 1A-3](/tab-one/subtab-a/article-3/)
-
-This is a placeholder abstract for Article 1A-3. Replace this paragraph with a concise 2–3 sentence summary that tells readers what the article is about and why it is worth reading. Keep it informative but brief.
+How to build a pragmatic, six-step Python pipeline using Apify to scrape LinkedIn for alumni employment and education data—bridging the gap when survey response rates fall short.
 
 ---
 
@@ -65,11 +45,11 @@ This is a placeholder abstract for Article 1A-3. Replace this paragraph with a c
      ADD MORE ARTICLES HERE
      Copy the block below, remove the comment markers, and fill it in:
 
-### [Your New Article Title](/tab-one/subtab-a/your-slug/)
+### [Your New Article Title](/Research/Data-Collection/your-slug/)
 
 Your 2–3 sentence abstract goes here.
 
 ---
      ---------------------------------------------------------------- -->
 
-← Back to [Tab One](/tab-one/)
+← Back to [Research Skill Column](/Research/)
