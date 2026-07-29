@@ -411,6 +411,8 @@ The survey isn't dead. But it's no longer the only game in town. For every insti
 
 ---
 
-*If this kind of practical, experience-driven breakdown was useful, there is more where that came from -- check my [YouTube](https://www.youtube.com/@LinliSharesResearch) for more.*
+> *If this kind of practical, experience-driven breakdown was useful, there is more where that came from -- check my [YouTube](https://www.youtube.com/@LinliSharesResearch) for more.*
 
 ---
+
+← Back to [Data Collection Articles](/Research/Data-Collection/)

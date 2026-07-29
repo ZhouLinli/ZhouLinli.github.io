@@ -1,3 +1,25 @@
+# quick start
+
+if bash it means not in the venv then need:
+```
+source /Users/linlizhou/Documents/PYTHON/.venv/bin/activate
+```
+
+then 
+```
+cd /Users/linlizhou/Documents/Columnist/ZhouLinli.github.io
+
+bundle exec jekyll serve
+```
+
+open http://localhost:4000/
+
+it will autoreload, or if not, press ctrl+c to stop and reenter the 
+
+```
+bundle exec jekyll serve
+```
+
 # Navigation Tabs, Subtabs & Articles — Setup Guide
 
 This document explains how the navigation tabs and hover dropdowns work, which files to edit for each change, and how to rename, add, remove, or hide tabs, subtabs, and articles. It also covers how to preview the site locally before pushing to GitHub.
