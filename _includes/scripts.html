@@ -6,8 +6,10 @@
 <!-- Mermaid diagram renderer: converts ```mermaid code blocks into rendered diagrams -->
 <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
+  (function() {
     // Convert <pre><code class="language-mermaid"> to <div class="mermaid">
+    // Must run BEFORE mermaid.initialize() so startOnLoad finds the elements.
+    // This script runs at the bottom of <body>, after all DOM nodes are parsed.
     document.querySelectorAll('code.language-mermaid').forEach(function(el) {
       var pre = el.parentElement;
       if (pre && pre.tagName === 'PRE') {
@@ -17,10 +19,13 @@
         pre.parentNode.replaceChild(div, pre);
       }
     });
+    // startOnLoad: true tells Mermaid to render .mermaid elements on DOMContentLoaded.
+    // Since conversion happened above, the .mermaid elements are already in the DOM
+    // by the time Mermaid's DOMContentLoaded handler fires.
     mermaid.initialize({
+      startOnLoad: true,
       theme: 'default',
       flowchart: { useMaxWidth: true, htmlLabels: true }
     });
-    mermaid.run({ querySelector: '.mermaid' });
-  });
+  })();
 </script>
