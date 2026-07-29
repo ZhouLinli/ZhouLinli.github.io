@@ -14,7 +14,7 @@
 # =============================================================================
 layout: single
 title: "Professional & Personal Development"    # ← CHANGE THIS: subtab page heading
-permalink: /Essay/Development/  # ← keep in sync with navigation.yml
+permalink: /Synthesis/Development/  # ← keep in sync with navigation.yml
 author_profile: true
 ---
 <!-- =========================================================================
@@ -23,28 +23,20 @@ author_profile: true
 
 <!-- ---------------------------------------------------------------- ARTICLE 1 -->
 
-### [Placeholder Article Title 2B-1](/Essay/Development/article-1/)
+<!-- ### [Placeholder Article Title 2B-1](/Synthesis/Development/article-1/)
 
 This is a placeholder abstract for Article 2B-1. Replace this paragraph with a concise 2–3 sentence summary that tells readers what the article is about and why it is worth reading.
 
----
+--- -->
 
-<!-- ---------------------------------------------------------------- ARTICLE 2 -->
 
-### [Placeholder Article Title 2B-2](/Essay/Development/article-2/)
-
-This is a placeholder abstract for Article 2B-2. Replace this paragraph with a concise 2–3 sentence summary that tells readers what the article is about and why it is worth reading.
-
----
-
-<!-- ---------------------------------------------------------------- ARTICLE 3 -->
-
-### [Placeholder Article Title 2B-3](/Essay/Development/article-3/)
-
-This is a placeholder abstract for Article 2B-3. Replace this paragraph with a concise 2–3 sentence summary that tells readers what the article is about and why it is worth reading.
-
----
 
 <!-- ADD MORE ARTICLES HERE — copy a block above and update the link + abstract -->
 
-← Back to [Essayistic Synthesis Column](/Essay/)
+<!-- ← Back to [Essayistic Synthesis Column](/Essay/) -->
+
+**More articles coming soon!**
+
+> *Stay in the loop by following me on my [YouTube channel](https://www.youtube.com/@LinliSharesResearch) for accessible video summaries of these insights.*
+
+← Back to [Observation & Synthesis Column](/Synthesis/)

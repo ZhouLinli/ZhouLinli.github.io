@@ -56,7 +56,7 @@ main:
   # ---------------------------------------------------------------------------
   # TAB 1 — Change "Tab One" to your desired tab name (e.g. "Research")
   # ---------------------------------------------------------------------------
-  - title: "Research Skill Column"             # ← CHANGE THIS: tab label shown in nav bar
+  - title: "Research Skills & Analytics Column"             # ← CHANGE THIS: tab label shown in nav bar
     url: /Research/                # ← CHANGE THIS: URL for the tab's main page
 
     # Subtabs shown on hover — delete this "children" block to hide the dropdown
@@ -74,16 +74,16 @@ main:
   # ---------------------------------------------------------------------------
   # TAB 2 — Change "Tab Two" to your desired tab name (e.g. "Teaching")
   # ---------------------------------------------------------------------------
-  - title: "Essayistic Synthesis Column"             # ← CHANGE THIS: tab label shown in nav bar
-    url: /Essay/               # ← CHANGE THIS: URL for the tab's main page
+  - title: "Observation & Synthesis Column"             # ← CHANGE THIS: tab label shown in nav bar
+    url: /Synthesis/               # ← CHANGE THIS: URL for the tab's main page
 
     # Subtabs shown on hover — delete this "children" block to hide the dropdown
     children:
       - title: "Economics & Behaviorial Studies"    # ← CHANGE THIS: first subtab label
-        url: /Essay/Economics/        # ← CHANGE THIS: first subtab URL
+        url: /Synthesis/Economics/        # ← CHANGE THIS: first subtab URL
 
       - title: "Professional & Personal Development"    # ← CHANGE THIS: second subtab label
-        url: /Essay/Development/        # ← CHANGE THIS: second subtab URL
+        url: /Synthesis/Development/        # ← CHANGE THIS: second subtab URL
 
       # - title: "Tab Two — Subtab C"    # ← CHANGE THIS: third subtab label
       #   url: /Essay/subtab-c/        # ← CHANGE THIS: third subtab URL

@@ -14,8 +14,8 @@
 #      update the [Subtab Name](/url/) link and the description paragraph.
 # =============================================================================
 layout: single
-title: "Essayistic Synthesis Column"   # ← CHANGE THIS: page heading
-permalink: /Essay/                      # ← keep in sync with navigation.yml url for Tab Two
+title: "Observation & Synthesis Column"   # ← CHANGE THIS: page heading
+permalink: /Synthesis/                      # ← keep in sync with navigation.yml url for Tab Two
 author_profile: true
 ---
 <!-- =========================================================================
@@ -28,7 +28,7 @@ author_profile: true
      SUBTAB CARD 1 — Economics & Behavioral Studies
      ---------------------------------------------------------------- -->
 
-## [Economics &amp; Behavioral Studies](/Essay/Economics/)
+## [Economics &amp; Behavioral Studies](/Synthesis/Economics/)
 
 Exploring economic schools of thought — classical, Keynesian, behavioral, institutional — and their real-world applications. Includes summaries of behavioral economics frameworks (Kahneman, Thaler), decision-making under uncertainty, and how these lenses illuminate social phenomena such as equity versus growth, competition versus cooperation.
 
@@ -38,9 +38,9 @@ Exploring economic schools of thought — classical, Keynesian, behavioral, inst
      SUBTAB CARD 2 — Professional & Personal Development
      ---------------------------------------------------------------- -->
 
-## [Professional &amp; Personal Development](/Essay/Development/)
+## [Professional &amp; Personal Development](/Synthesis/Development/)
 
-Reflections on parenting research and child development, meditation techniques and psychological insights, life philosophies across cultures and eras, and analyses of autobiographical novels for their core values. A space for synthesizing diverse wisdom — from Stoicism to modern mindfulness — into actionable perspectives on growth.
+A space for synthesizing diverse wisdom — from ancient philosophies to modern psychological research — into actionable perspectives on personal and professional growth. This column bridges deep self-reflection with practical career strategies, covering core human development principles alongside real-world insights on institutional marketing, professional relationship management, dynamic communication strategies, and the art of personal branding.
 
 ---
 

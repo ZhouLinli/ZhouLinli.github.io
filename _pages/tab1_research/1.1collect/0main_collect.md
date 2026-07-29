@@ -52,4 +52,10 @@ Your 2–3 sentence abstract goes here.
 ---
      ---------------------------------------------------------------- -->
 
-← Back to [Research Skill Column](/Research/)
+<!-- ← Back to [Research Skill Column](/Research/) -->
+
+**More articles coming soon!**
+
+> *Stay in the loop by following me on my [YouTube channel](https://www.youtube.com/@LinliSharesResearch) for accessible video summaries of these insights.*
+
+← Back to [Research Skills & Analytics Column](/Research/)

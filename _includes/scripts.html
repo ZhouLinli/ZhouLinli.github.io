@@ -2,3 +2,25 @@
 
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
+
+<!-- Mermaid diagram renderer: converts ```mermaid code blocks into rendered diagrams -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Convert <pre><code class="language-mermaid"> to <div class="mermaid">
+    document.querySelectorAll('code.language-mermaid').forEach(function(el) {
+      var pre = el.parentElement;
+      if (pre && pre.tagName === 'PRE') {
+        var div = document.createElement('div');
+        div.className = 'mermaid';
+        div.textContent = el.textContent;
+        pre.parentNode.replaceChild(div, pre);
+      }
+    });
+    mermaid.initialize({
+      theme: 'default',
+      flowchart: { useMaxWidth: true, htmlLabels: true }
+    });
+    mermaid.run({ querySelector: '.mermaid' });
+  });
+</script>

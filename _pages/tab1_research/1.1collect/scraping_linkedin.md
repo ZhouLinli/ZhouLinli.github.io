@@ -1,32 +1,48 @@
-
 ---
 layout: single
 title: "Building a LinkedIn Data Pipeline for Alumni Outcomes"
 permalink: /Research/Data-Collection/linkedin-alumni-pipeline/
-date: 2026-07-28
+#date: 2026-07-28
 author_profile: true
 excerpt: "How to build a pragmatic, six-step Python pipeline using Apify to scrape LinkedIn for alumni employment and education data—bridging the gap when survey response rates fall short."
 ---
+> {{ page.excerpt }}
+
+**Contents**
+
+- [Introduction &amp; Narrative Hook](#introduction-narrative-hook)
+- [Step 1: Identify Who&#39;s Missing — Filtering Survey Non-Respondents](#step-1-identify-whos-missing-filtering-survey-non-respondents)
+- [Step 2: Chunk It Up — Preparing Batches for the API](#step-2-chunk-it-up-preparing-batches-for-the-api)
+- [Step 3: The Engine Room — Scraping LinkedIn via Apify](#step-3-the-engine-room-scraping-linkedin-via-apify)
+- [Step 4: Assemble the Pieces — Combining Results and Re-Mapping IDs](#step-4-assemble-the-pieces-combining-results-and-re-mapping-ids)
+- [Step 5: From JSON Soup to Clean Columns — Extracting Structured Fields](#step-5-from-json-soup-to-clean-columns-extracting-structured-fields)
+- [Step 6: The Final Enrichment — Adding Demographics and Mapping to Tableau Targets](#step-6-the-final-enrichment-adding-demographics-and-mapping-to-tableau-targets)
+- [Summary, Reflection &amp; Future Outlook](#summary-reflection-future-outlook)
+
+This article walks through a complete six-step Python pipeline that uses Apify to scrape LinkedIn for alumni employment and education data. Whether you are tackling your first data collection project or looking to refine an existing workflow, each section below stands alone—feel free to jump to the step you need most, or read from start to finish for the full blueprint.
+
+---
+
 ## Introduction & Narrative Hook
 
-Every institutional researcher knows the feeling: you send the alumni survey, wait weeks, send reminders, and still land at a 15–20% response rate. Self-reported outcome data has always been the gold standard, but it's also the one that leaves you staring at half-empty spreadsheets.
+Every institutional researcher knows the feeling: you send the alumni survey, wait weeks, send reminders, and still land at a 10% or less response rate. Self-reported outcome data has always been the gold standard, but it's also the one that leaves you staring at half-empty spreadsheets.
 
-We needed employment and education outcomes for roughly 900 alumni who never touched the survey. The mandate was clear—find the data, or leave the analysis incomplete.
+We needed employment and education outcomes for thousands of alumni who never touched the survey. The mandate was clear—find the data, or leave the analysis incomplete to represent the whole population.
 
-Enter LinkedIn web scraping. It's not a perfect substitute. Profiles go stale, alumni forget to update their jobs, and the platform's terms of service demand careful navigation. But when you're sitting on an 80% non-response rate, "imperfect but available" beats "perfect but missing" every time. The trick is building a pipeline that acknowledges those imperfections and handles them systematically.
+Enter LinkedIn Profile Search by Name. It's not a perfect substitute. Profiles go stale, alumni forget to update their jobs, and the platform's terms of service demand careful navigation. But when you're sitting on an 90% non-response rate, "imperfect but available" beats "perfect but missing" every time. The trick is building a pipeline that acknowledges those imperfections and handles them systematically.
 
-Over six scripts and roughly 700 API calls, we built exactly that. Here's the blueprint—warts, workarounds, and all.
+Manual workarounds are a thing of the past. With a few scripts and a few Apify actors, we built a pipeline that **automates the process of collecting LinkedIn data for thousands of alumni**. Over six scripts and a API call for each alumni profile, we built exactly that. Here's the blueprint—warts, workarounds, and all.
 
 ```mermaid
-flowchart LR
-    A[Survey Non-Respondents] --> B[Filter Contact List]
-    B --> C[Chunk into Batches of 100]
-    C --> D[Apify LinkedIn Search by Name]
-    D --> E[Combine Raw Results]
-    E --> F[Re-Map IDs via Fuzzy Matching]
-    F --> G[Extract & Clean Fields]
-    G --> H[Enrich with Demographics]
-    H --> I[Tableau-Ready Dataset]
+flowchart TD
+    A[Survey<br/>Non-Respondents] --> B[Filter<br/>Contact List]
+    B --> C[Chunk into<br/>Batches of 100]
+    C --> D[Apify LinkedIn<br/>Search by Name]
+    D --> E[Combine<br/>Raw Results]
+    E --> F[Re-Map IDs via<br/>Fuzzy Matching]
+    F --> G[Extract &<br/>Clean Fields]
+    G --> H[Enrich with<br/>Demographics]
+    H --> I[Tableau-Ready<br/>Dataset]
 ```
 
 ## Step 1: Identify Who's Missing — Filtering Survey Non-Respondents
@@ -38,7 +54,7 @@ flowchart LR
 Before you scrape a single profile, you need to know *who* to scrape. The whole pipeline exists because a subset of alumni didn't respond to the survey. Step 1 is a straightforward set difference: your master contact list minus your survey respondents.
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Contact List<br/>all alumni] --> C{People Code ID<br/>in survey?}
     B[Survey Responses] --> C
     C -->|No| D[LinkedIn Target List]
@@ -74,10 +90,10 @@ Apify's LinkedIn Profile Search by Name actor is powerful, but it processes reco
 
 ```mermaid
 flowchart LR
-    A[LinkedIn Targets<br/>900 rows] --> B[Chunk 1: rows 1-100]
-    A --> C[Chunk 2: rows 101-200]
+    A[LinkedIn Targets<br/>900 rows] --> B[Chunk 1:<br/>rows 1-100]
+    A --> C[Chunk 2:<br/>rows 101-200]
     A --> D[...]
-    A --> E[Chunk 9: rows 801-900]
+    A --> E[Chunk 9:<br/>rows 801-900]
 ```
 
 ### Hands-On Guide
@@ -176,7 +192,7 @@ for _, row in df_chunk.iterrows():
 After running all chunks through Apify, you'll have a scatter of result CSVs. These need to be combined into one master file. But there's a catch: the Apify search doesn't always return results in the same order you submitted names, and sometimes it returns multiple matches per name. The `pcid` you injected in Step 3 handles the first problem, but we need a secondary fuzzy-matching step for robustness.
 
 ```mermaid
-flowchart LR
+flowchart TD
     subgraph Combine
         A[results_1_100.csv] --> D[glob + pd.concat]
         B[results_101_200.csv] --> D
@@ -242,10 +258,10 @@ The raw Apify output stores experience and education data as stringified JSON ar
 This is a job-search disaster waiting to happen. You can't filter, pivot, or visualize stringified lists. Step 5 uses Python's `ast.literal_eval` to safely parse these strings into dictionaries, then extracts individual fields into flat, analysis-ready columns.
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Raw currentPosition<br/>stringified JSON] --> B[ast.literal_eval]
     B --> C[List of dicts]
-    C --> D[extract_value val, key]
+    C --> D[extract_value<br/>val, key]
     D --> E[job_title]
     D --> F[employer]
     D --> G[job_status]
@@ -312,7 +328,7 @@ df['school_name'] = df['profileTopEducation'].apply(lambda x: extract_value(x, '
 You now have clean LinkedIn data, but it's still anonymous. To make it useful for reporting, you need to fold in institutional context: major, graduation year, program (UNDER vs. GRAD), and—most importantly—the **Population** classification that your Tableau dashboard expects. This step is a left join back to the original contact list, followed by a business-rule-based recoding.
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Clean LinkedIn Data<br/>pcid, job_title, employer, ...] --> C{Left Join on pcid}
     B[Contact List<br/>Major, Grad Year, Program] --> C
     C --> D[Enriched Dataset]
@@ -395,4 +411,6 @@ The survey isn't dead. But it's no longer the only game in town. For every insti
 
 ---
 
-*← Back to [Data Collection Blueprints](/tab-three/)*
+*If this kind of practical, experience-driven breakdown was useful, there is more where that came from. I write regularly about data collection, data analysis, and institutional research—sharing the tips, tools, and workflows I use in real projects. Follow me on [LinkedIn](https://www.linkedin.com/in/linlizhou/) for announcements whenever I publish a new article, or bookmark [my website](https://ZhouLinli.github.io) to check back for future insights. I also produce video versions of my articles on [YouTube](https://www.youtube.com/@LinliSharesResearch) to make these insights as accessible and digestible as possible—subscribe to stay in the loop.*
+
+---

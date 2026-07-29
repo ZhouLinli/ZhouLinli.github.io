@@ -14,7 +14,7 @@
 # =============================================================================
 layout: single
 title: "Placeholder Article Title 2A-1"   # ← CHANGE THIS: full article title
-permalink: /Essay/Economics/article-1/   # ← CHANGE THIS: unique URL slug
+permalink: /Synthesis/Economics/article-1/   # ← CHANGE THIS: unique URL slug
 date: 2024-01-01
 author_profile: true
 excerpt: "A one-sentence summary of this article for search engines and previews."

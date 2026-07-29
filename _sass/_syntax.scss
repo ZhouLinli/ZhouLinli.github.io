@@ -28,7 +28,14 @@ div.highlighter-rouge, figure.highlight {
   .highlight {
     margin: 0;
     font-family: $monospace;
-    font-size: $type-size-7;
+    font-size: $type-size-6;  /* CODE SNIPPET FONT SIZE (line 31 in _sass/_syntax.scss)
+                                  • Currently set to $type-size-5 (1em = 16px) to match body text.
+                                  • Was previously $type-size-7 (0.6875em ≈ 11px) — too small to read.
+                                  • Available size variables:
+                                    - $type-size-5 (1em = 16px) ← matches body text (recommended)
+                                    - $type-size-6 (0.75em = 12px)
+                                    - $type-size-7 (0.6875em ≈ 11px)
+                                  Change this line to any of the above values to adjust. */
     line-height: 1.8;
   }
 }

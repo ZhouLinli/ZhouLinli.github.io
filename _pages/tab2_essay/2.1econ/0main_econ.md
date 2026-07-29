@@ -14,7 +14,7 @@
 # =============================================================================
 layout: single
 title: "Economics & Behaviorial Studies"    # ← CHANGE THIS: subtab page heading
-permalink: /Essay/Economics/  # ← keep in sync with navigation.yml
+permalink: /Synthesis/Economics/  # ← keep in sync with navigation.yml
 author_profile: true
 ---
 <!-- =========================================================================
@@ -23,28 +23,19 @@ author_profile: true
 
 <!-- ---------------------------------------------------------------- ARTICLE 1 -->
 
-### [Placeholder Article Title 2A-1](/Essay/Economics/article-1/)
+<!-- ### [Placeholder Article Title 2A-1](/Essay/Economics/article-1/)
 
 This is a placeholder abstract for Article 2A-1. Replace this paragraph with a concise 2–3 sentence summary that tells readers what the article is about and why it is worth reading.
 
----
+--- -->
 
-<!-- ---------------------------------------------------------------- ARTICLE 2 -->
 
-### [Placeholder Article Title 2A-2](/Essay/Economics/article-2/)
-
-This is a placeholder abstract for Article 2A-2. Replace this paragraph with a concise 2–3 sentence summary that tells readers what the article is about and why it is worth reading.
-
----
-
-<!-- ---------------------------------------------------------------- ARTICLE 3 -->
-
-### [Placeholder Article Title 2A-3](/Essay/Economics/article-3/)
-
-This is a placeholder abstract for Article 2A-3. Replace this paragraph with a concise 2–3 sentence summary that tells readers what the article is about and why it is worth reading.
-
----
 
 <!-- ADD MORE ARTICLES HERE — copy a block above and update the link + abstract -->
 
-← Back to [Essayistic Synthesis Column](/Essay/)
+
+**More articles coming soon!**
+
+> *Stay in the loop by following me on my [YouTube channel](https://www.youtube.com/@LinliSharesResearch) for accessible video summaries of these insights.*
+
+← Back to [Observation & Synthesis Column](/Synthesis/)

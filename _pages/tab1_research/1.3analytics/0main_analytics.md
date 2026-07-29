@@ -23,28 +23,18 @@ author_profile: true
 
 <!-- ---------------------------------------------------------------- ARTICLE 1 -->
 
-### [Placeholder Article Title 2C-1](/Research/Analytics-Methods/article-1/)
+<!-- ### [Placeholder Article Title 2C-1](/Research/Analytics-Methods/article-1/)
 
 This is a placeholder abstract for Article 2C-1. Replace this paragraph with a concise 2–3 sentence summary that tells readers what the article is about and why it is worth reading.
 
----
-
-<!-- ---------------------------------------------------------------- ARTICLE 2 -->
-
-### [Placeholder Article Title 2C-2](/Research/Analytics-Methods/article-2/)
-
-This is a placeholder abstract for Article 2C-2. Replace this paragraph with a concise 2–3 sentence summary that tells readers what the article is about and why it is worth reading.
-
----
-
-<!-- ---------------------------------------------------------------- ARTICLE 3 -->
-
-### [Placeholder Article Title 2C-3](/Research/Analytics-Methods/article-3/)
-
-This is a placeholder abstract for Article 2C-3. Replace this paragraph with a concise 2–3 sentence summary that tells readers what the article is about and why it is worth reading.
-
----
+--->
 
 <!-- ADD MORE ARTICLES HERE — copy a block above and update the link + abstract -->
 
-← Back to [Research Skill Column](/Research/)
+
+
+**More articles coming soon!**
+
+> *Stay in the loop by following me on my [YouTube channel](https://www.youtube.com/@LinliSharesResearch) for accessible video summaries of these insights.*
+
+← Back to [Research Skills & Analytics Column](/Research/)

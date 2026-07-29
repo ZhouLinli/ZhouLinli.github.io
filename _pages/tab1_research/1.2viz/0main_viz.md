@@ -1,4 +1,3 @@
-
 ---
 # =============================================================================
 # TAB ONE — Subtab B  (listing page)
@@ -24,7 +23,7 @@ author_profile: true
 
 <!-- ---------------------------------------------------------------- ARTICLE 1 -->
 
-### [Placeholder Article Title 1B-1](/Research/Data-Visualization/article-1/)
+<!-- ### [Placeholder Article Title 1B-1](/Research/Data-Visualization/article-1/)
 
 This is a placeholder abstract for Article 1B-1. Replace this paragraph with a concise 2–3 sentence summary that tells readers what the article is about and why it is worth reading.
 
@@ -32,20 +31,15 @@ This is a placeholder abstract for Article 1B-1. Replace this paragraph with a c
 
 <!-- ---------------------------------------------------------------- ARTICLE 2 -->
 
-### [Placeholder Article Title 1B-2](/Research/Data-Visualization/article-2/)
+<!-- ### [Placeholder Article Title 1B-2](/Research/Data-Visualization/article-2/)
 
 This is a placeholder abstract for Article 1B-2. Replace this paragraph with a concise 2–3 sentence summary that tells readers what the article is about and why it is worth reading.
 
----
+-->
 
-<!-- ---------------------------------------------------------------- ARTICLE 3 -->
 
-### [Placeholder Article Title 1B-3](/Research/Data-Visualization/article-3/)
+**More articles coming soon!**
 
-This is a placeholder abstract for Article 1B-3. Replace this paragraph with a concise 2–3 sentence summary that tells readers what the article is about and why it is worth reading.
+> *Stay in the loop by following me on my [YouTube channel](https://www.youtube.com/@LinliSharesResearch) for accessible video summaries of these insights.*
 
----
-
-<!-- ADD MORE ARTICLES HERE — copy a block above and update the link + abstract -->
-
-← Back to [Research Skill Column](/Research/)
+← Back to [Research Skills & Analytics Column](/Research/)
