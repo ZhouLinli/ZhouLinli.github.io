@@ -3,7 +3,7 @@
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
 
-<!-- Mermaid: convert ```mermaid code blocks to rendered diagrams -->
+<!-- Mermaid: convert ```mermaid code blocks to rendered diagrams
 <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
 <script>
   (function() {
@@ -18,6 +18,32 @@
         pre.parentNode.replaceChild(div, pre);
       }
     });
+    mermaid.initialize({
+      theme: 'default',
+      flowchart: { useMaxWidth: true, htmlLabels: true }
+    });
+    mermaid.run({ querySelector: '.mermaid' });
+  })();
+</script> -->
+
+<!-- Mermaid: convert ```mermaid code blocks to rendered diagrams -->
+<script src="[https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js](https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js)"></script>
+<script>
+  (function() {
+    // Target both GitHub Pages (.language-mermaid code) and standard (code.language-mermaid) formats
+    document.querySelectorAll('.language-mermaid code, code.language-mermaid').forEach(function(el) {
+      
+      // Look for the GitHub Pages Rouge wrapper first, fallback to the standard <pre> parent
+      var wrapper = el.closest('div.language-mermaid') || el.closest('pre');
+      
+      if (wrapper) {
+        var div = document.createElement('div');
+        div.className = 'mermaid';
+        div.textContent = el.textContent;
+        wrapper.parentNode.replaceChild(div, wrapper);
+      }
+    });
+    
     mermaid.initialize({
       theme: 'default',
       flowchart: { useMaxWidth: true, htmlLabels: true }
