@@ -10,39 +10,14 @@ excerpt: "How to build a pragmatic, six-step Python pipeline using Apify to scra
 
 **Contents**
 
-- [Introduction \& Narrative Hook](#introduction--narrative-hook)
+- [Introduction & Narrative Hook](#introduction--narrative-hook)
 - [Step 1: Identify Who's Missing — Filtering Survey Non-Respondents](#step-1-identify-whos-missing--filtering-survey-non-respondents)
-  - [Purpose \& Story](#purpose--story)
-  - [Hands-On Guide](#hands-on-guide)
-  - [Key Code Snippet](#key-code-snippet)
-  - [Pro-Tips \& Lessons Learned](#pro-tips--lessons-learned)
 - [Step 2: Chunk It Up — Preparing Batches for the API](#step-2-chunk-it-up--preparing-batches-for-the-api)
-  - [Purpose \& Story](#purpose--story-1)
-  - [Hands-On Guide](#hands-on-guide-1)
-  - [Key Code Snippet](#key-code-snippet-1)
-  - [Pro-Tips \& Lessons Learned](#pro-tips--lessons-learned-1)
 - [Step 3: The Engine Room — Scraping LinkedIn via Apify](#step-3-the-engine-room--scraping-linkedin-via-apify)
-  - [Purpose \& Story](#purpose--story-2)
-  - [Hands-On Guide](#hands-on-guide-2)
-  - [Key Code Snippet](#key-code-snippet-2)
-  - [Pro-Tips \& Lessons Learned](#pro-tips--lessons-learned-2)
 - [Step 4: Assemble the Pieces — Combining Results and Re-Mapping IDs](#step-4-assemble-the-pieces--combining-results-and-re-mapping-ids)
-  - [Purpose \& Story](#purpose--story-3)
-  - [Hands-On Guide](#hands-on-guide-3)
-  - [Key Code Snippet](#key-code-snippet-3)
-  - [Pro-Tips \& Lessons Learned](#pro-tips--lessons-learned-3)
 - [Step 5: From JSON Soup to Clean Columns — Extracting Structured Fields](#step-5-from-json-soup-to-clean-columns--extracting-structured-fields)
-  - [Purpose \& Story](#purpose--story-4)
-  - [Hands-On Guide](#hands-on-guide-4)
-  - [Key Code Snippet](#key-code-snippet-4)
-  - [Pro-Tips \& Lessons Learned](#pro-tips--lessons-learned-4)
 - [Step 6: The Final Enrichment — Adding Demographics and Mapping to Tableau Targets](#step-6-the-final-enrichment--adding-demographics-and-mapping-to-tableau-targets)
-  - [Purpose \& Story](#purpose--story-5)
-  - [Hands-On Guide](#hands-on-guide-5)
-  - [Key Code Snippet](#key-code-snippet-5)
-  - [Pro-Tips \& Lessons Learned](#pro-tips--lessons-learned-5)
-- [Summary, Reflection \& Future Outlook](#summary-reflection--future-outlook)
-  - [Where to Take This Next](#where-to-take-this-next)
+- [Summary, Reflection & Future Outlook](#summary-reflection--future-outlook)
 
 This article walks through a complete six-step Python pipeline that uses Apify to scrape LinkedIn for alumni employment and education data. Whether you are tackling your first data collection project or looking to refine an existing workflow, each section below stands alone—feel free to jump to the step you need most, or read from start to finish for the full blueprint.
 
@@ -65,7 +40,7 @@ flowchart TD
     C --> D[Apify LinkedIn&lt;br/&gt;Search by Name]
     D --> E[Combine&lt;br/&gt;Raw Results]
     E --> F[Re-Map IDs via&lt;br/&gt;Fuzzy Matching]
-    F --> G[Extract &amp;&lt;br/&gt;Clean Fields]
+    F --> G[Extract &&lt;br/&gt;Clean Fields]
     G --> H[Enrich with&lt;br/&gt;Demographics]
     H --> I[Tableau-Ready&lt;br/&gt;Dataset]
 </pre>
