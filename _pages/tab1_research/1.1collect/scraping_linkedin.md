@@ -407,10 +407,10 @@ If I were rebuilding this pipeline today, I'd add three features:
 2. **Confidence scoring.** Not every name match is equally reliable. Add a confidence column based on the number of matching fields (name + school + location + industry) so downstream analysts can filter or weight results.
 3. **Automated chunk orchestration.** Instead of manually launching each chunk, wrap the Apify calls in a queue with retry logic, credit monitoring, and Slack notifications. A lightweight Airflow DAG or even a shell loop would eliminate the 20-minute "watch the spinner" gap between chunks.
 
-The survey isn't dead. But it's no longer the only game in town. For every institution wrestling with the 80% who don't respond, this pipeline offers a pragmatic, repeatable bridge to better data.
+The survey isn't dead. But it's no longer the only game in town. For every institution wrestling with the 90% who don't respond, this pipeline offers a pragmatic, repeatable bridge to better data.
 
 ---
 
-*If this kind of practical, experience-driven breakdown was useful, there is more where that came from. I write regularly about data collection, data analysis, and institutional research—sharing the tips, tools, and workflows I use in real projects. Follow me on [LinkedIn](https://www.linkedin.com/in/linlizhou/) for announcements whenever I publish a new article, or bookmark [my website](https://ZhouLinli.github.io) to check back for future insights. I also produce video versions of my articles on [YouTube](https://www.youtube.com/@LinliSharesResearch) to make these insights as accessible and digestible as possible—subscribe to stay in the loop.*
+*If this kind of practical, experience-driven breakdown was useful, there is more where that came from -- check my [YouTube](https://www.youtube.com/@LinliSharesResearch) for more.*
 
 ---
