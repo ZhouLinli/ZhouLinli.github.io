@@ -3,28 +3,6 @@
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
 
-<!-- Mermaid: convert ```mermaid code blocks to rendered diagrams
-<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
-<script>
-  (function() {
-    // Convert code.language-mermaid (inside pre) to div.mermaid.
-    // Runs at bottom of body, synchronously, so mermaid.run finds targets immediately.
-    document.querySelectorAll('code.language-mermaid').forEach(function(el) {
-      var pre = el.parentElement;
-      if (pre && pre.tagName === 'PRE') {
-        var div = document.createElement('div');
-        div.className = 'mermaid';
-        div.textContent = el.textContent;
-        pre.parentNode.replaceChild(div, pre);
-      }
-    });
-    mermaid.initialize({
-      theme: 'default',
-      flowchart: { useMaxWidth: true, htmlLabels: true }
-    });
-    mermaid.run({ querySelector: '.mermaid' });
-  })();
-</script> -->
 
 <!-- Mermaid: convert ```mermaid code blocks to rendered diagrams -->
 <script src="[https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js](https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js)"></script>
