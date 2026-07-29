@@ -387,7 +387,7 @@ df_linkedin_add.loc[df_linkedin_add['institution name'] == 'Lasell University',
 
 ## Summary, Reflection & Future Outlook
 
-This pipeline gave us employment and education data for roughly 650–700 alumni who otherwise would have been silent in our outcomes report. At approximately `$0.68` per 100 records, the entire operation cost less than `$10` in Apify credits—a fraction of what a survey incentive program would run.
+This pipeline gave us employment and education data for roughly 650–700 alumni who otherwise would have been silent in our outcomes report. At approximately <span>$0.68</span> per 100 records, the entire operation cost less than <span>$10</span> in Apify credits—a fraction of what a survey incentive program would run.
 
 But let's be honest about the limitations.
 
