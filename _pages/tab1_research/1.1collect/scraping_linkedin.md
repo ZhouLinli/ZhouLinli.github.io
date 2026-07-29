@@ -10,14 +10,39 @@ excerpt: "How to build a pragmatic, six-step Python pipeline using Apify to scra
 
 **Contents**
 
-- [Introduction &amp; Narrative Hook](#introduction-narrative-hook)
-- [Step 1: Identify Who&#39;s Missing — Filtering Survey Non-Respondents](#step-1-identify-whos-missing-filtering-survey-non-respondents)
-- [Step 2: Chunk It Up — Preparing Batches for the API](#step-2-chunk-it-up-preparing-batches-for-the-api)
-- [Step 3: The Engine Room — Scraping LinkedIn via Apify](#step-3-the-engine-room-scraping-linkedin-via-apify)
-- [Step 4: Assemble the Pieces — Combining Results and Re-Mapping IDs](#step-4-assemble-the-pieces-combining-results-and-re-mapping-ids)
-- [Step 5: From JSON Soup to Clean Columns — Extracting Structured Fields](#step-5-from-json-soup-to-clean-columns-extracting-structured-fields)
-- [Step 6: The Final Enrichment — Adding Demographics and Mapping to Tableau Targets](#step-6-the-final-enrichment-adding-demographics-and-mapping-to-tableau-targets)
-- [Summary, Reflection &amp; Future Outlook](#summary-reflection-future-outlook)
+- [Introduction \& Narrative Hook](#introduction--narrative-hook)
+- [Step 1: Identify Who's Missing — Filtering Survey Non-Respondents](#step-1-identify-whos-missing--filtering-survey-non-respondents)
+  - [Purpose \& Story](#purpose--story)
+  - [Hands-On Guide](#hands-on-guide)
+  - [Key Code Snippet](#key-code-snippet)
+  - [Pro-Tips \& Lessons Learned](#pro-tips--lessons-learned)
+- [Step 2: Chunk It Up — Preparing Batches for the API](#step-2-chunk-it-up--preparing-batches-for-the-api)
+  - [Purpose \& Story](#purpose--story-1)
+  - [Hands-On Guide](#hands-on-guide-1)
+  - [Key Code Snippet](#key-code-snippet-1)
+  - [Pro-Tips \& Lessons Learned](#pro-tips--lessons-learned-1)
+- [Step 3: The Engine Room — Scraping LinkedIn via Apify](#step-3-the-engine-room--scraping-linkedin-via-apify)
+  - [Purpose \& Story](#purpose--story-2)
+  - [Hands-On Guide](#hands-on-guide-2)
+  - [Key Code Snippet](#key-code-snippet-2)
+  - [Pro-Tips \& Lessons Learned](#pro-tips--lessons-learned-2)
+- [Step 4: Assemble the Pieces — Combining Results and Re-Mapping IDs](#step-4-assemble-the-pieces--combining-results-and-re-mapping-ids)
+  - [Purpose \& Story](#purpose--story-3)
+  - [Hands-On Guide](#hands-on-guide-3)
+  - [Key Code Snippet](#key-code-snippet-3)
+  - [Pro-Tips \& Lessons Learned](#pro-tips--lessons-learned-3)
+- [Step 5: From JSON Soup to Clean Columns — Extracting Structured Fields](#step-5-from-json-soup-to-clean-columns--extracting-structured-fields)
+  - [Purpose \& Story](#purpose--story-4)
+  - [Hands-On Guide](#hands-on-guide-4)
+  - [Key Code Snippet](#key-code-snippet-4)
+  - [Pro-Tips \& Lessons Learned](#pro-tips--lessons-learned-4)
+- [Step 6: The Final Enrichment — Adding Demographics and Mapping to Tableau Targets](#step-6-the-final-enrichment--adding-demographics-and-mapping-to-tableau-targets)
+  - [Purpose \& Story](#purpose--story-5)
+  - [Hands-On Guide](#hands-on-guide-5)
+  - [Key Code Snippet](#key-code-snippet-5)
+  - [Pro-Tips \& Lessons Learned](#pro-tips--lessons-learned-5)
+- [Summary, Reflection \& Future Outlook](#summary-reflection--future-outlook)
+  - [Where to Take This Next](#where-to-take-this-next)
 
 This article walks through a complete six-step Python pipeline that uses Apify to scrape LinkedIn for alumni employment and education data. Whether you are tackling your first data collection project or looking to refine an existing workflow, each section below stands alone—feel free to jump to the step you need most, or read from start to finish for the full blueprint.
 
@@ -33,17 +58,17 @@ Enter LinkedIn Profile Search by Name. It's not a perfect substitute. Profiles g
 
 Manual workarounds are a thing of the past. With a few scripts and a few Apify actors, we built a pipeline that **automates the process of collecting LinkedIn data for thousands of alumni**. Over six scripts and a API call for each alumni profile, we built exactly that. Here's the blueprint—warts, workarounds, and all.
 
-```mermaid
+<pre class="mermaid">
 flowchart TD
-    A[Survey<br/>Non-Respondents] --> B[Filter<br/>Contact List]
-    B --> C[Chunk into<br/>Batches of 100]
-    C --> D[Apify LinkedIn<br/>Search by Name]
-    D --> E[Combine<br/>Raw Results]
-    E --> F[Re-Map IDs via<br/>Fuzzy Matching]
-    F --> G[Extract &<br/>Clean Fields]
-    G --> H[Enrich with<br/>Demographics]
-    H --> I[Tableau-Ready<br/>Dataset]
-```
+    A[Survey&lt;br/&gt;Non-Respondents] --> B[Filter&lt;br/&gt;Contact List]
+    B --> C[Chunk into&lt;br/&gt;Batches of 100]
+    C --> D[Apify LinkedIn&lt;br/&gt;Search by Name]
+    D --> E[Combine&lt;br/&gt;Raw Results]
+    E --> F[Re-Map IDs via&lt;br/&gt;Fuzzy Matching]
+    F --> G[Extract &amp;&lt;br/&gt;Clean Fields]
+    G --> H[Enrich with&lt;br/&gt;Demographics]
+    H --> I[Tableau-Ready&lt;br/&gt;Dataset]
+</pre>
 
 ## Step 1: Identify Who's Missing — Filtering Survey Non-Respondents
 
@@ -53,13 +78,13 @@ flowchart TD
 
 Before you scrape a single profile, you need to know *who* to scrape. The whole pipeline exists because a subset of alumni didn't respond to the survey. Step 1 is a straightforward set difference: your master contact list minus your survey respondents.
 
-```mermaid
+<pre class="mermaid">
 flowchart TD
-    A[Contact List<br/>all alumni] --> C{People Code ID<br/>in survey?}
+    A[Contact List&lt;br/&gt;all alumni] --> C{People Code ID&lt;br/&gt;in survey?}
     B[Survey Responses] --> C
     C -->|No| D[LinkedIn Target List]
-    C -->|Yes| E[Already have data<br/>skip]
-```
+    C -->|Yes| E[Already have data&lt;br/&gt;skip]
+</pre>
 
 ### Hands-On Guide
 
@@ -88,13 +113,13 @@ df_linkedin.to_csv("linkedin_targets.csv", index=False)
 
 Apify's LinkedIn Profile Search by Name actor is powerful, but it processes records one at a time. Running 900 records in a single monolithic call is a recipe for timeout disasters, runaway costs, and uncheckable progress. The solution is dead simple: split your target list into chunks of 100 rows.
 
-```mermaid
+<pre class="mermaid">
 flowchart LR
-    A[LinkedIn Targets<br/>900 rows] --> B[Chunk 1:<br/>rows 1-100]
-    A --> C[Chunk 2:<br/>rows 101-200]
+    A[LinkedIn Targets&lt;br/&gt;900 rows] --> B[Chunk 1:&lt;br/&gt;rows 1-100]
+    A --> C[Chunk 2:&lt;br/&gt;rows 101-200]
     A --> D[...]
-    A --> E[Chunk 9:<br/>rows 801-900]
-```
+    A --> E[Chunk 9:&lt;br/&gt;rows 801-900]
+</pre>
 
 ### Hands-On Guide
 
@@ -127,19 +152,19 @@ for i in range(0, total_rows, chunk_size):
 
 This is the heart of the operation. You send a name, a school filter ("Lasell University"), and a strict-search flag to Apify's pre-built LinkedIn Profile Search by Name actor. The actor returns a rich JSON payload: current position, full experience history, education, location, profile URL, connections count, and more.
 
-```mermaid
+<pre class="mermaid">
 sequenceDiagram
     participant P as Python Script
     participant A as Apify Actor
     participant L as LinkedIn
-  
+   
     P->>A: POST firstName, lastName, school="Lasell"
     A->>L: Search LinkedIn profiles
     L-->>A: Match results
     A-->>P: Dataset with profile data
     Note over P: Append pcid to each result
     P->>P: Save chunk results to CSV
-```
+</pre>
 
 ### Hands-On Guide
 
@@ -191,7 +216,7 @@ for _, row in df_chunk.iterrows():
 
 After running all chunks through Apify, you'll have a scatter of result CSVs. These need to be combined into one master file. But there's a catch: the Apify search doesn't always return results in the same order you submitted names, and sometimes it returns multiple matches per name. The `pcid` you injected in Step 3 handles the first problem, but we need a secondary fuzzy-matching step for robustness.
 
-```mermaid
+<pre class="mermaid">
 flowchart TD
     subgraph Combine
         A[results_1_100.csv] --> D[glob + pd.concat]
@@ -200,13 +225,13 @@ flowchart TD
         D --> E[combined_linkedin_results.csv]
     end
     subgraph Re-Map IDs
-        E --> F{Match by<br/>first name exact +<br/>last name initial?}
+        E --> F{Match by&lt;br/&gt;first name exact +&lt;br/&gt;last name initial?}
         F -->|Yes| G[Assign pcid]
         F -->|No| H[Assign None]
         G --> I[combined_with_pcid.csv]
         H --> I
     end
-```
+</pre>
 
 ### Hands-On Guide
 
@@ -257,11 +282,11 @@ The raw Apify output stores experience and education data as stringified JSON ar
 
 This is a job-search disaster waiting to happen. You can't filter, pivot, or visualize stringified lists. Step 5 uses Python's `ast.literal_eval` to safely parse these strings into dictionaries, then extracts individual fields into flat, analysis-ready columns.
 
-```mermaid
+<pre class="mermaid">
 flowchart TD
-    A[Raw currentPosition<br/>stringified JSON] --> B[ast.literal_eval]
+    A[Raw currentPosition&lt;br/&gt;stringified JSON] --> B[ast.literal_eval]
     B --> C[List of dicts]
-    C --> D[extract_value<br/>val, key]
+    C --> D[extract_value&lt;br/&gt;val, key]
     D --> E[job_title]
     D --> F[employer]
     D --> G[job_status]
@@ -269,7 +294,7 @@ flowchart TD
     I --> J[school_name]
     I --> K[degree]
     I --> L[field_of_study]
-```
+</pre>
 
 ### Hands-On Guide
 
@@ -327,10 +352,10 @@ df['school_name'] = df['profileTopEducation'].apply(lambda x: extract_value(x, '
 
 You now have clean LinkedIn data, but it's still anonymous. To make it useful for reporting, you need to fold in institutional context: major, graduation year, program (UNDER vs. GRAD), and—most importantly—the **Population** classification that your Tableau dashboard expects. This step is a left join back to the original contact list, followed by a business-rule-based recoding.
 
-```mermaid
+<pre class="mermaid">
 flowchart TD
-    A[Clean LinkedIn Data<br/>pcid, job_title, employer, ...] --> C{Left Join on pcid}
-    B[Contact List<br/>Major, Grad Year, Program] --> C
+    A[Clean LinkedIn Data&lt;br/&gt;pcid, job_title, employer, ...] --> C{Left Join on pcid}
+    B[Contact List&lt;br/&gt;Major, Grad Year, Program] --> C
     C --> D[Enriched Dataset]
     D --> E{Classify Population}
     E -->|Grad Year 2019 + UNDER| F[UG 5 Year]
@@ -343,7 +368,7 @@ flowchart TD
     H --> K
     I --> K
     J --> K
-```
+</pre>
 
 ### Hands-On Guide
 
