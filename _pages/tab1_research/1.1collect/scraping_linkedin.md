@@ -383,11 +383,11 @@ df_linkedin_add.loc[df_linkedin_add['institution name'] == 'Lasell University',
 - **Column names matter.** The final rename step is tedious but essential. Your visualization tool expects a specific schema. Map early, map explicitly.
 - **Graduation year as numeric.** `pd.to_numeric(..., errors='coerce')` handles stray non-numeric entries gracefully. One malformed year entry won't crash the whole pipeline.
 
----
+---  
 
 ## Summary, Reflection & Future Outlook
 
-This pipeline gave us employment and education data for roughly 650–700 alumni who otherwise would have been silent in our outcomes report. At approximately $0.68 per 100 records, the entire operation cost less than $10 in Apify credits—a fraction of what a survey incentive program would run.
+This pipeline gave us employment and education data for roughly 650–700 alumni who otherwise would have been silent in our outcomes report. At approximately `$0.68` per 100 records, the entire operation cost less than `$10` in Apify credits—a fraction of what a survey incentive program would run.
 
 But let's be honest about the limitations.
 
@@ -395,14 +395,14 @@ But let's be honest about the limitations.
 | -------------------------------- | ---------------------------------------- | ----------------------------------------------------------------------------- |
 | **Profile staleness**      | Alumni may not update LinkedIn regularly | Cross-reference with survey data when available; note data collection date    |
 | **Search false positives** | Wrong person with the same name          | Strict school filter + connectionsCount deduplication helps but isn't perfect |
-| **Coverage gaps**          | Not every alum has a LinkedIn profile    | Document coverage rate alongside results                                      |
+| **Coverage gaps**          | Not every alum has a LinkedIn profile    | Document coverage rate alongside results                                      | 
 | **Terms of service**       | LinkedIn and Apify's ToS evolve          | Review before each collection cycle; use public data responsibly              |
 | **One-time snapshot**      | No change tracking                       | Future: add date-stamped collection cycles for trend analysis                 |
 
 ### Where to Take This Next
 
 If I were rebuilding this pipeline today, I'd add three features:
-
+ 
 1. **Incremental collection.** Store a hash of each profile's key fields. On subsequent runs, only re-scrape profiles whose hash changed. This turns a snapshot into a panel dataset.
 2. **Confidence scoring.** Not every name match is equally reliable. Add a confidence column based on the number of matching fields (name + school + location + industry) so downstream analysts can filter or weight results.
 3. **Automated chunk orchestration.** Instead of manually launching each chunk, wrap the Apify calls in a queue with retry logic, credit monitoring, and Slack notifications. A lightweight Airflow DAG or even a shell loop would eliminate the 20-minute "watch the spinner" gap between chunks.
