@@ -3,12 +3,12 @@
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
 
-<!-- Mermaid: renders <pre class="mermaid"> diagrams (written as raw HTML in Markdown) -->
+<!-- Mermaid: renders <pre class="mermaid"> and ```mermaid fenced code blocks -->
 <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
 <script>
   mermaid.initialize({
     theme: 'default',
     flowchart: { useMaxWidth: true, htmlLabels: true }
   });
-  mermaid.run({ querySelector: '.mermaid' });
+  mermaid.run({ querySelector: '.mermaid, code.language-mermaid' });
 </script>

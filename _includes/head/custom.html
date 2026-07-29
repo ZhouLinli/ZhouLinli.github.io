@@ -37,14 +37,18 @@
 
 <!-- Mermaid diagram styling: force font-size to match body text (16px) and contain width -->
 <style>
-  .mermaid svg {
+  .mermaid svg,
+  code.language-mermaid svg {
     max-width: 100%;
     height: auto;
     font-size: 16px;
   }
-  .mermaid {
+  .mermaid,
+  code.language-mermaid {
     margin: 1.5em 0;
     text-align: center;
+    display: block;
+    background: transparent;
   }
 </style>
 
